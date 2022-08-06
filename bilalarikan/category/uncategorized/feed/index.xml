@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Genel &#8211; Bilal ARIKAN</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Programmer, Designer, Dreamer</description>
+	<lastBuildDate>Tue, 26 Jan 2021 11:18:08 +0000</lastBuildDate>
+	<language>tr</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2020/05/cropped-BA-tamam-4-1-32x32.png</url>
+	<title>Genel &#8211; Bilal ARIKAN</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Vehicle Tracking and Social Network</title>
+		<link>./../../../vehicle-tracking-and-social-network/index.html</link>
+		
+		<dc:creator><![CDATA[bilal-arikan]]></dc:creator>
+		<pubDate>Wed, 31 May 2017 21:22:22 +0000</pubDate>
+				<category><![CDATA[Genel]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=246</guid>
+
+					<description><![CDATA[My final project that I made in the last 2 years of the university. It is a social network application that I developed for Android and IOS Operating Systems, which uses the license plates as Id for easier communication of the drivers in the traffic, easier detection of the mistakes and easier detection of the&#46;&#46;&#46;]]></description>
+										<content:encoded><![CDATA[
+<p>My final project that I made in the last 2 years of the university. It is a social network application that I developed for Android and IOS Operating Systems, which uses the license plates as Id for easier communication of the drivers in the traffic, easier detection of the mistakes and easier detection of the crimes committed in traffic.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

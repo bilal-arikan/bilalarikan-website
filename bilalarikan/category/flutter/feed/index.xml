@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Flutter &#8211; Bilal ARIKAN</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Programmer, Designer, Dreamer</description>
+	<lastBuildDate>Tue, 26 Jan 2021 11:19:12 +0000</lastBuildDate>
+	<language>tr</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2020/05/cropped-BA-tamam-4-1-32x32.png</url>
+	<title>Flutter &#8211; Bilal ARIKAN</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Virtual Assistant Frodit</title>
+		<link>./../../../virtual-assistant-frodit/index.html</link>
+		
+		<dc:creator><![CDATA[bilal-arikan]]></dc:creator>
+		<pubDate>Sun, 31 May 2020 20:39:37 +0000</pubDate>
+				<category><![CDATA[Flutter]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=238</guid>
+
+					<description><![CDATA[An Application like Siri or GoogleHome or Alexa that process data on a server side with N.L.P than returns a text callback, (Flutter framework, SocketIO and NodeJs) https://github.com/bilal-arikan/Flutter-Personal-Assistant]]></description>
+										<content:encoded><![CDATA[
+<p>An Application like Siri or GoogleHome or Alexa that process data on a server side with N.L.P than returns a text callback, </p>
+
+
+
+<p>(Flutter framework, SocketIO and NodeJs)</p>
+
+
+
+<figure class="wp-container-2 wp-block-gallery-1 wp-block-gallery columns-2 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="./../../../wp-content/uploads/2020/05/Screenshot_2020-05-31-23-33-26-996_com.arikan.frodit-485x1024.jpg" alt="" data-id="241" data-full-url="./../../../wp-content/uploads/2020/05/Screenshot_2020-05-31-23-33-26-996_com.arikan.frodit.jpg" data-link="./../../../index.html?attachment_id=241" class="wp-image-241"/></figure></li><li class="blocks-gallery-item"><figure><img loading="lazy" width="485" height="1024" src="./../../../wp-content/uploads/2020/05/Screenshot_2020-05-31-23-33-38-673_com.arikan.frodit-485x1024.jpg" alt="" data-id="242" data-full-url="./../../../wp-content/uploads/2020/05/Screenshot_2020-05-31-23-33-38-673_com.arikan.frodit.jpg" data-link="./../../../index.html?attachment_id=242" class="wp-image-242" srcset="./../../../wp-content/uploads/2020/05/Screenshot_2020-05-31-23-33-38-673_com.arikan.frodit-485x1024.jpg 485w, ./../../../wp-content/uploads/2020/05/Screenshot_2020-05-31-23-33-38-673_com.arikan.frodit-142x300.jpg 142w, ./../../../wp-content/uploads/2020/05/Screenshot_2020-05-31-23-33-38-673_com.arikan.frodit-768x1621.jpg 768w, ./../../../wp-content/uploads/2020/05/Screenshot_2020-05-31-23-33-38-673_com.arikan.frodit-728x1536.jpg 728w, ./../../../wp-content/uploads/2020/05/Screenshot_2020-05-31-23-33-38-673_com.arikan.frodit-970x2048.jpg 970w, ./../../../wp-content/uploads/2020/05/Screenshot_2020-05-31-23-33-38-673_com.arikan.frodit-520x1098.jpg 520w, ./../../../wp-content/uploads/2020/05/Screenshot_2020-05-31-23-33-38-673_com.arikan.frodit-940x1984.jpg 940w, ./../../../wp-content/uploads/2020/05/Screenshot_2020-05-31-23-33-38-673_com.arikan.frodit.jpg 1080w" sizes="(max-width: 485px) 100vw, 485px" /></figure></li></ul></figure>
+
+
+
+<p><a href="https://github.com/bilal-arikan/Flutter-Personal-Assistant">https://github.com/bilal-arikan/Flutter-Personal-Assistant</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

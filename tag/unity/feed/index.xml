@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Unity &#8211; Bilal ARIKAN</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Programmer, Designer, Dreamer</description>
+	<lastBuildDate>Sun, 09 Apr 2023 15:11:09 +0000</lastBuildDate>
+	<language>tr</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2020/05/cropped-BA-tamam-4-1-32x32.png</url>
+	<title>Unity &#8211; Bilal ARIKAN</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Simple Mini Map Asset</title>
+		<link>./../../../simple-mini-map-asset/index.html</link>
+		
+		<dc:creator><![CDATA[bilal-arikan]]></dc:creator>
+		<pubDate>Sun, 09 Apr 2023 12:21:17 +0000</pubDate>
+				<category><![CDATA[AssetStore]]></category>
+		<category><![CDATA[Unity]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=427</guid>
+
+					<description><![CDATA[Simple Mini Map package includes the easy-to-use MiniMap feature. It contains very little code. https://github.com/bilal-arikan/UnitySimpleMiniMap https://assetstore.unity.com/packages/slug/226420]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large is-resized"><img decoding="async" src="./../../../wp-content/uploads/2023/04/icon-1024x1024.png" alt="" class="wp-image-432" width="211" height="211" srcset="./../../../wp-content/uploads/2023/04/icon-1024x1024.png 1024w, ./../../../wp-content/uploads/2023/04/icon-300x300.png 300w, ./../../../wp-content/uploads/2023/04/icon-150x150.png 150w, ./../../../wp-content/uploads/2023/04/icon-768x768.png 768w, ./../../../wp-content/uploads/2023/04/icon-1536x1536.png 1536w, ./../../../wp-content/uploads/2023/04/icon-200x200.png 200w, ./../../../wp-content/uploads/2023/04/icon-520x520.png 520w, ./../../../wp-content/uploads/2023/04/icon-940x940.png 940w, ./../../../wp-content/uploads/2023/04/icon.png 2048w" sizes="(max-width: 211px) 100vw, 211px" /></figure>
+
+
+
+<p>Simple Mini Map package includes the easy-to-use MiniMap feature. It contains very little code.</p>
+
+
+
+<p><a href="https://github.com/bilal-arikan/UnitySimpleMiniMap">https://github.com/bilal-arikan/UnitySimpleMiniMap</a></p>
+
+
+
+<p><a href="https://assetstore.unity.com/packages/slug/226420">https://assetstore.unity.com/packages/slug/226420</a></p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<div class="video-container"><iframe title="Unity Simple MiniMap" width="740" height="416" src="https://www.youtube.com/embed/QVnJBEbhdzQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+</div></figure>
+
+
+
+<ul>
+<li>You can import MiniMapDemo.unitypackage to review the example in the video</li>
+</ul>
+
+
+
+<ul>
+<li>How to Use:</li>
+</ul>
+
+
+
+<pre class="wp-block-code"><code>var minimap = FindObjectOfType&lt;Arikan.MiniMapView>();
+
+// Red object example
+var img = minimap.FollowCentered(obj1Centered.transform);
+img.color = obj1Centered.material.color;
+
+// Green object example
+var img2 = minimap.Follow(obj2.transform);
+img2.color = obj2.material.color;
+
+// Blue object example
+var img3 = minimap.Follow(obj3.transform, obj3Sprite);
+img3.color = obj3.material.color;</code></pre>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="488" src="./../../../wp-content/uploads/2023/04/2-1024x488.png" alt="" class="wp-image-431" srcset="./../../../wp-content/uploads/2023/04/2-1024x488.png 1024w, ./../../../wp-content/uploads/2023/04/2-300x143.png 300w, ./../../../wp-content/uploads/2023/04/2-768x366.png 768w, ./../../../wp-content/uploads/2023/04/2-1536x731.png 1536w, ./../../../wp-content/uploads/2023/04/2-520x248.png 520w, ./../../../wp-content/uploads/2023/04/2-940x448.png 940w, ./../../../wp-content/uploads/2023/04/2.png 1680w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

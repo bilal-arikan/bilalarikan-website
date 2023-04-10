@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<generator>https://wordpress.org/?v=6.2</generator>
 
 <image>
 	<url>./../../../wp-content/uploads/2020/05/cropped-BA-tamam-4-1-32x32.png</url>
@@ -35,11 +35,11 @@
 		<pubDate>Fri, 26 Feb 2021 22:00:34 +0000</pubDate>
 				<category><![CDATA[AR]]></category>
 		<category><![CDATA[Unity]]></category>
-		<guid isPermaLink="false">./../../../index.html?p=371</guid>
+		<guid isPermaLink="false">https://www.bilalarikan.com/?p=371</guid>
 
 					<description><![CDATA[AI and AR SupportedWell-Being App Well-being mobile app that analyzes users healthbehaviors with artificial intelligence (AI) and displaystheir health status and recommendationsthrough augmented reality (AR).]]></description>
 										<content:encoded><![CDATA[
-<h2>AI and AR Supported<br>Well-Being App</h2>
+<h2 class="wp-block-heading">AI and AR Supported<br>Well-Being App</h2>
 
 
 
@@ -69,7 +69,7 @@
 		<pubDate>Sat, 21 Nov 2020 19:59:30 +0000</pubDate>
 				<category><![CDATA[AR]]></category>
 		<category><![CDATA[Unity]]></category>
-		<guid isPermaLink="false">./../../../index.html?p=350</guid>
+		<guid isPermaLink="false">https://www.bilalarikan.com/?p=350</guid>
 
 					<description><![CDATA[Augmented Reality Portals, made with Unity https://github.com/bilal-arikan/AR-Portal-World]]></description>
 										<content:encoded><![CDATA[
@@ -82,13 +82,13 @@
 
 
 <figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<div class="video-container"><iframe loading="lazy" title="Unity Augmented Reality Portals" width="740" height="416" src="https://www.youtube.com/embed/pbp6-oOGEcY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="video-container"><iframe title="Unity Augmented Reality Portals" width="740" height="416" src="https://www.youtube.com/embed/pbp6-oOGEcY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 </div></figure>
 
 
 
 <figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<div class="video-container"><iframe loading="lazy" title="Unity Augmented Reality Portals" width="740" height="416" src="https://www.youtube.com/embed/_hBEmU1KDrg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="video-container"><iframe title="Unity Augmented Reality Portals" width="740" height="416" src="https://www.youtube.com/embed/_hBEmU1KDrg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 </div></figure>
 ]]></content:encoded>
 					

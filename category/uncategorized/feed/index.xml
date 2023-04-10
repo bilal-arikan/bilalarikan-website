@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<generator>https://wordpress.org/?v=6.2</generator>
 
 <image>
 	<url>./../../../wp-content/uploads/2020/05/cropped-BA-tamam-4-1-32x32.png</url>
@@ -35,7 +35,7 @@
 		<pubDate>Wed, 31 May 2017 21:22:22 +0000</pubDate>
 				<category><![CDATA[Genel]]></category>
 		<category><![CDATA[Mobile]]></category>
-		<guid isPermaLink="false">./../../../index.html?p=246</guid>
+		<guid isPermaLink="false">https://www.bilalarikan.com/?p=246</guid>
 
 					<description><![CDATA[My final project that I made in the last 2 years of the university. It is a social network application that I developed for Android and IOS Operating Systems, which uses the license plates as Id for easier communication of the drivers in the traffic, easier detection of the mistakes and easier detection of the&#46;&#46;&#46;]]></description>
 										<content:encoded><![CDATA[

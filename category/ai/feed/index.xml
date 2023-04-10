@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<generator>https://wordpress.org/?v=6.2</generator>
 
 <image>
 	<url>./../../../wp-content/uploads/2020/05/cropped-BA-tamam-4-1-32x32.png</url>
@@ -35,7 +35,7 @@
 		<pubDate>Sun, 20 Jun 2021 23:02:23 +0000</pubDate>
 				<category><![CDATA[AI]]></category>
 		<category><![CDATA[Unity]]></category>
-		<guid isPermaLink="false">./../../../index.html?p=378</guid>
+		<guid isPermaLink="false">https://www.bilalarikan.com/?p=378</guid>
 
 					<description><![CDATA[https://github.com/bilal-arikan/Object-Classification-Barracuda]]></description>
 										<content:encoded><![CDATA[
@@ -43,10 +43,10 @@
 
 
 
-<div class="wp-container-4 wp-block-group"><div class="wp-block-group__inner-container">
-<div class="wp-container-3 wp-block-columns">
-<div class="wp-container-1 wp-block-column">
-<figure class="wp-block-image size-large"><img src="https://github.com/bilal-arikan/Object-Classification-Barracuda/blob/master/SS/1.gif?raw=true" alt=""/></figure>
+<div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow">
+<div class="wp-block-columns is-layout-flex wp-container-3">
+<div class="wp-block-column is-layout-flow">
+<figure class="wp-block-image size-large"><img decoding="async" src="https://github.com/bilal-arikan/Object-Classification-Barracuda/blob/master/SS/1.gif?raw=true" alt=""/></figure>
 
 
 
@@ -55,8 +55,8 @@
 
 
 
-<div class="wp-container-2 wp-block-column">
-<figure class="wp-block-image size-large"><img src="https://github.com/bilal-arikan/Object-Classification-Barracuda/raw/master/SS/2.gif?raw=true" alt=""/></figure>
+<div class="wp-block-column is-layout-flow">
+<figure class="wp-block-image size-large"><img decoding="async" src="https://github.com/bilal-arikan/Object-Classification-Barracuda/raw/master/SS/2.gif?raw=true" alt=""/></figure>
 
 
 

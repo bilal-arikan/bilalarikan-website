@@ -12,7 +12,7 @@
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../../../index.html</link>
 	<description>Programmer, Designer, Dreamer</description>
-	<lastBuildDate>Sun, 09 Apr 2023 15:11:09 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 10 Apr 2023 12:06:37 +0000</lastBuildDate>
 	<language>tr</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -158,14 +158,32 @@ img3.color = obj3.material.color;</code></pre>
 
 
 <figure class="wp-block-embed is-type-wp-embed is-provider-mandarin-health wp-block-embed-mandarin-health"><div class="wp-block-embed__wrapper">
-<div class="video-container"><blockquote class="wp-embedded-content" data-secret="i8X4tDNRTH"><a href="https://mandarinhealth.com/">Home</a></blockquote><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted" title="&#8220;Home&#8221; &#8212; Mandarin Health" src="https://mandarinhealth.com/embed/#?secret=i8X4tDNRTH" data-secret="i8X4tDNRTH" width="600" height="338" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+https://mandarinhealth.com/
 </div></figure>
 
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<div class="video-container"><iframe title="Promotional Video First Draft" width="740" height="555" src="https://www.youtube.com/embed/vTentwlRTkw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="video-container"><iframe title="Promotional Video First Draft" width="740" height="555" src="https://www.youtube.com/embed/vTentwlRTkw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 </div></figure>
+
+
+
+<figure class="wp-block-gallery has-nested-images columns-2 is-cropped wp-block-gallery-5 is-layout-flex">
+<figure class="wp-block-image"><img decoding="async" width="507" height="906" data-id="446"  src="./../../../wp-content/uploads/2021/02/1.jpg" alt="" class="wp-image-446" srcset="./../../../wp-content/uploads/2021/02/1.jpg 507w, ./../../../wp-content/uploads/2021/02/1-168x300.jpg 168w" sizes="(max-width: 507px) 100vw, 507px" /></figure>
+
+
+
+<figure class="wp-block-image"><img decoding="async" width="507" height="900" data-id="448"  src="./../../../wp-content/uploads/2023/04/2.jpg" alt="" class="wp-image-448" srcset="./../../../wp-content/uploads/2023/04/2.jpg 507w, ./../../../wp-content/uploads/2023/04/2-169x300.jpg 169w" sizes="(max-width: 507px) 100vw, 507px" /></figure>
+
+
+
+<figure class="wp-block-image"><img decoding="async" width="505" height="902" data-id="449"  src="./../../../wp-content/uploads/2023/04/3.jpg" alt="" class="wp-image-449" srcset="./../../../wp-content/uploads/2023/04/3.jpg 505w, ./../../../wp-content/uploads/2023/04/3-168x300.jpg 168w" sizes="(max-width: 505px) 100vw, 505px" /></figure>
+
+
+
+<figure class="wp-block-image"><img decoding="async" width="508" height="902" data-id="450"  src="./../../../wp-content/uploads/2023/04/4.jpg" alt="" class="wp-image-450" srcset="./../../../wp-content/uploads/2023/04/4.jpg 508w, ./../../../wp-content/uploads/2023/04/4-169x300.jpg 169w" sizes="(max-width: 508px) 100vw, 508px" /></figure>
+</figure>
 ]]></content:encoded>
 					
 		

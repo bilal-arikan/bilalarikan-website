@@ -45,12 +45,14 @@ Dosya değiştiren iki betik (`clean-wp-artifacts.py`, `fix-feed-links.py`)
 | `tools/generate-sitemap.py` | `sitemap.xml` dosyasını yeniden üretir. `lastmod` değerini git geçmişinden alır |
 | `tools/clean-wp-artifacts.py` | WordPress'e özgü ölü işaretlemeleri (emoji betiği, XML-RPC/pingback linkleri, REST keşif linkleri, yorum formu) HTML'den söker |
 | `tools/fix-feed-links.py` | RSS keşif linklerini gerçek dosyaya (`feed/index.xml`) yönlendirir |
+| `tools/convert-images-to-webp.py` | JPEG/PNG görselleri WebP'ye çevirir ve tüm referansları günceller. Favicon'lar PNG kalır; `foto.jpg` + `foto.png` gibi aynı gövdeli çiftlere dokunmaz; yalnızca çözümlenen yolu gerçekten dönüştürülen dosya olan referansları değiştirir |
 
 Yeni bir WordPress dökümü alındığında sırasıyla çalıştırılması gereken akış:
 
 ```bash
 python tools/clean-wp-artifacts.py
 python tools/fix-feed-links.py
+python tools/convert-images-to-webp.py    # Pillow gerekir, birkaç dakika sürer
 python tools/generate-sitemap.py
 python tools/check-links.py
 ```
@@ -61,5 +63,8 @@ python tools/check-links.py
   depodan çıkarılmıştır: statik yayında hiçbir işlevleri yok, sadece ölü yüzey
   oluşturuyorlardı. `.gitignore` bunların geri dönmesini engeller.
 - `wp-includes/` içinde yalnızca temanın gerçekten yüklediği dosyalar tutulur.
-- Deponun büyük kısmı (`wp-content/uploads`, ~118 MB) görsellerdir. Yeni görsel
-  eklerken boyut optimizasyonu yapmak deponun şişmesini yavaşlatır.
+- Görseller WebP'ye çevrilmiştir (~103 MB → ~22 MB). Yeni görsel eklendiğinde
+  `tools/convert-images-to-webp.py` yeniden çalıştırılabilir; yalnızca WebP'si
+  gerçekten daha küçük olan dosyalar değiştirilir.
+- Eski `.git` geçmişi hâlâ dönüştürülmemiş görselleri içerdiği için klonlama
+  boyutu bu temizlikten etkilenmez; sadece yeni commit'ler küçüktür.

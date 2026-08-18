@@ -39,7 +39,7 @@
 
 					<description><![CDATA[Simple Mini Map package includes the easy-to-use MiniMap feature. It contains very little code. https://github.com/bilal-arikan/UnitySimpleMiniMap https://assetstore.unity.com/packages/slug/226420]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-large is-resized"><img decoding="async" src="./../../../wp-content/uploads/2023/04/icon-1024x1024.png" alt="" class="wp-image-432" width="211" height="211" srcset="./../../../wp-content/uploads/2023/04/icon-1024x1024.png 1024w, ./../../../wp-content/uploads/2023/04/icon-300x300.png 300w, ./../../../wp-content/uploads/2023/04/icon-150x150.png 150w, ./../../../wp-content/uploads/2023/04/icon-768x768.png 768w, ./../../../wp-content/uploads/2023/04/icon-1536x1536.png 1536w, ./../../../wp-content/uploads/2023/04/icon-200x200.png 200w, ./../../../wp-content/uploads/2023/04/icon-520x520.png 520w, ./../../../wp-content/uploads/2023/04/icon-940x940.png 940w, ./../../../wp-content/uploads/2023/04/icon.png 2048w" sizes="(max-width: 211px) 100vw, 211px" /></figure>
+<figure class="wp-block-image size-large is-resized"><img decoding="async" src="./../../../wp-content/uploads/2023/04/icon-1024x1024.webp" alt="" class="wp-image-432" width="211" height="211" srcset="./../../../wp-content/uploads/2023/04/icon-1024x1024.webp 1024w, ./../../../wp-content/uploads/2023/04/icon-300x300.webp 300w, ./../../../wp-content/uploads/2023/04/icon-150x150.webp 150w, ./../../../wp-content/uploads/2023/04/icon-768x768.webp 768w, ./../../../wp-content/uploads/2023/04/icon-1536x1536.webp 1536w, ./../../../wp-content/uploads/2023/04/icon-200x200.webp 200w, ./../../../wp-content/uploads/2023/04/icon-520x520.webp 520w, ./../../../wp-content/uploads/2023/04/icon-940x940.webp 940w, ./../../../wp-content/uploads/2023/04/icon.webp 2048w" sizes="(max-width: 211px) 100vw, 211px" /></figure>
 
 
 
@@ -89,7 +89,7 @@ img3.color = obj3.material.color;</code></pre>
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="488" src="./../../../wp-content/uploads/2023/04/2-1024x488.png" alt="" class="wp-image-431" srcset="./../../../wp-content/uploads/2023/04/2-1024x488.png 1024w, ./../../../wp-content/uploads/2023/04/2-300x143.png 300w, ./../../../wp-content/uploads/2023/04/2-768x366.png 768w, ./../../../wp-content/uploads/2023/04/2-1536x731.png 1536w, ./../../../wp-content/uploads/2023/04/2-520x248.png 520w, ./../../../wp-content/uploads/2023/04/2-940x448.png 940w, ./../../../wp-content/uploads/2023/04/2.png 1680w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="488" src="./../../../wp-content/uploads/2023/04/2-1024x488.webp" alt="" class="wp-image-431" srcset="./../../../wp-content/uploads/2023/04/2-1024x488.webp 1024w, ./../../../wp-content/uploads/2023/04/2-300x143.webp 300w, ./../../../wp-content/uploads/2023/04/2-768x366.webp 768w, ./../../../wp-content/uploads/2023/04/2-1536x731.webp 1536w, ./../../../wp-content/uploads/2023/04/2-520x248.webp 520w, ./../../../wp-content/uploads/2023/04/2-940x448.webp 940w, ./../../../wp-content/uploads/2023/04/2.png 1680w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 ]]></content:encoded>
 					
 		

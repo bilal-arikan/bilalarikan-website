@@ -591,7 +591,7 @@ label {
 }
 
 .entry pre {
-	background: url(./img/pre.png) repeat top;
+	background: url(./img/pre.webp) repeat top;
 	padding: 18px 20px;
 	margin: 30px 0;
 	border: 1px solid #ddd;
@@ -2765,7 +2765,7 @@ iframe {
 
 .masonry-item .entry-thumbnail:before {
 	opacity: 0.01;
-	background: url(./img/image-gradient.png) repeat-x;
+	background: url(./img/image-gradient.webp) repeat-x;
 	background-size: 100% 100%;
 	content: "";
 	position: absolute;

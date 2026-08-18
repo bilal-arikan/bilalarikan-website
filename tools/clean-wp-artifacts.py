@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Strip WordPress-only artifacts from the static HTML export.
+"""Repair the markup WordPress left behind in the static export.
 
 The site is served as plain static files (GitHub Pages), so anything that
 depends on a live WordPress backend is dead weight: it either 404s, leaks the
-old admin surface, or just wastes bytes on every page load.
+old admin surface, or just wastes bytes on every page load. Most rules here
+delete such markup; a few rewrite a path WordPress used to resolve server side.
 
 Run from the repository root:
 
@@ -18,14 +19,16 @@ import pathlib
 import re
 import sys
 
-# Each rule is (label, compiled pattern). Matches are removed outright.
-RULES: list[tuple[str, re.Pattern[str]]] = [
+# Each rule is (label, pattern, replacement). The replacement is empty for the
+# rules that delete markup outright.
+RULES: list[tuple[str, re.Pattern[str], str]] = [
     (
         "emoji detection script (references a file that does not exist)",
         re.compile(
             r"[ \t]*<script type=\"text/javascript\">\s*window\._wpemojiSettings.*?</script>\s*?\n",
             re.DOTALL,
         ),
+        "",
     ),
     (
         "emoji stylesheet",
@@ -33,30 +36,37 @@ RULES: list[tuple[str, re.Pattern[str]]] = [
             r"[ \t]*<style type=\"text/css\">\s*img\.wp-smiley,.*?</style>\s*?\n",
             re.DOTALL,
         ),
+        "",
     ),
     (
         "REST API discovery link (wp-json is gone)",
         re.compile(r"[ \t]*<link rel=\"https://api\.w\.org/\"[^>]*>\s*?\n"),
+        "",
     ),
     (
         "oEmbed discovery link (wp-json is gone)",
         re.compile(r"[ \t]*<link[^>]*wp-json[^>]*>\s*?\n"),
+        "",
     ),
     (
         "shortlink (?p=<id> resolves to the home page without WordPress)",
         re.compile(r"[ \t]*<link rel=\"shortlink\"[^>]*>\s*?\n"),
+        "",
     ),
     (
         "RSD / EditURI link (XML-RPC endpoint does not exist)",
         re.compile(r"[ \t]*<link rel=\"EditURI\"[^>]*>\s*?\n"),
+        "",
     ),
     (
         "Windows Live Writer manifest link",
         re.compile(r"[ \t]*<link rel=\"wlwmanifest\"[^>]*>\s*?\n"),
+        "",
     ),
     (
         "pingback link (XML-RPC endpoint does not exist)",
         re.compile(r"[ \t]*<link rel=\"pingback\"[^>]*>\s*?\n"),
+        "",
     ),
     (
         "comment reply form (posts nowhere on a static site)",
@@ -64,14 +74,23 @@ RULES: list[tuple[str, re.Pattern[str]]] = [
             r"[ \t]*<div id=\"respond\" class=\"comment-respond\">.*?<!-- #respond -->\s*?\n",
             re.DOTALL,
         ),
+        "",
+    ),
+    (
+        # Not a deletion: WordPress resolved the pretty URL /feed/ server side,
+        # but the export wrote index.xml, so the advertised path 404s and no
+        # reader can subscribe.
+        "RSS discovery link pointing at feed/index.html instead of index.xml",
+        re.compile(r"(?<![\w-])feed/index\.html"),
+        "feed/index.xml",
     ),
 ]
 
 
 def clean(text: str) -> tuple[str, dict[str, int]]:
     hits: dict[str, int] = {}
-    for label, pattern in RULES:
-        text, count = pattern.subn("", text)
+    for label, pattern, replacement in RULES:
+        text, count = pattern.subn(replacement, text)
         if count:
             hits[label] = hits.get(label, 0) + count
     return text, hits

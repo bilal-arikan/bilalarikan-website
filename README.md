@@ -35,27 +35,28 @@ yoktur — dosyalar olduğu gibi servis edilir.
 
 ## Bakım betikleri
 
-Hepsi Python 3 ile çalışır, ek bağımlılık istemez ve **depo kökünden** çağrılır.
-Dosya değiştiren iki betik (`clean-wp-artifacts.py`, `fix-feed-links.py`)
-`--dry-run` ile yazmadan rapor verir.
+Hepsi Python 3 ile çalışır ve **depo kökünden** çağrılır; yalnızca
+`convert-images-to-webp.py` dışarıdan bir paket (Pillow) ister. Dosya değiştiren
+betikler `--dry-run` ile yazmadan rapor verir.
 
 | Betik | Ne yapar |
 |---|---|
 | `tools/check-links.py` | HTML içindeki tüm yerel `href`/`src`/`srcset`/`url()` hedeflerini tarar, var olmayan dosyaya işaret edenleri raporlar. Kırık hedef varsa çıkış kodu `1` döner |
 | `tools/generate-sitemap.py` | `sitemap.xml` dosyasını yeniden üretir. `lastmod` değerini git geçmişinden alır |
-| `tools/clean-wp-artifacts.py` | WordPress'e özgü ölü işaretlemeleri (emoji betiği, XML-RPC/pingback linkleri, REST keşif linkleri, yorum formu) HTML'den söker |
-| `tools/fix-feed-links.py` | RSS keşif linklerini gerçek dosyaya (`feed/index.xml`) yönlendirir |
+| `tools/clean-wp-artifacts.py` | WordPress'e özgü ölü işaretlemeleri (emoji betiği, XML-RPC/pingback linkleri, REST keşif linkleri, yorum formu) söker; RSS keşif linkini gerçek dosyaya (`feed/index.xml`) yönlendirir |
 | `tools/convert-images-to-webp.py` | JPEG/PNG görselleri WebP'ye çevirir ve tüm referansları günceller. Favicon'lar PNG kalır; `foto.jpg` + `foto.png` gibi aynı gövdeli çiftlere dokunmaz; yalnızca çözümlenen yolu gerçekten dönüştürülen dosya olan referansları değiştirir |
+| `tools/markup_refs.py` | Betik değil, ortak modül: işaretlemedeki dosya referanslarını bulur ve diskteki yola çözer. `check-links.py` ile `convert-images-to-webp.py` aynı ayrıştırıcıyı kullansın diye vardır |
 
-Yeni bir WordPress dökümü alındığında sırasıyla çalıştırılması gereken akış:
+İçerik değişikliğinden sonra çalıştırılacak akış:
 
 ```bash
-python tools/clean-wp-artifacts.py
-python tools/fix-feed-links.py
-python tools/convert-images-to-webp.py    # Pillow gerekir, birkaç dakika sürer
-python tools/generate-sitemap.py
-python tools/check-links.py
+python tools/convert-images-to-webp.py    # yeni görsel eklendiyse (Pillow gerekir)
+python tools/generate-sitemap.py          # yeni sayfa eklendiyse
+python tools/check-links.py               # her zaman: kırık hedef var mı
 ```
+
+`clean-wp-artifacts.py` işini bir kez yaptı; kuralları yalnızca markup'a
+WordPress kalıntısı geri karışırsa tekrar gerekir.
 
 ## Notlar
 

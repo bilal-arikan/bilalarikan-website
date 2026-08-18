@@ -16,6 +16,7 @@ Safety rules applied here:
     overwrite each other, so such pairs are left untouched
   * a reference is rewritten only when the exact file it resolves to was
     converted, which leaves remote URLs and dangling references alone
+    (see markup_refs for the parsing and resolution both tools share)
 
 Run from the repository root:
 
@@ -30,9 +31,12 @@ import collections
 import pathlib
 import re
 import sys
-import urllib.parse
 
 from PIL import Image
+
+sys.path.insert(0, str(pathlib.Path(__file__).parent))
+
+import markup_refs
 
 # Quality for photographic sources. Chosen high enough that the difference is
 # not visible at the widths the theme renders, low enough to be worth doing.
@@ -51,49 +55,16 @@ KEEP_AS_IS = ("cropped-BA-tamam-",)
 # Files whose markup may point at an image.
 MARKUP_SUFFIXES = {".html", ".xml", ".css", ".js"}
 
-SKIP_DIRS = {".git", "tools"}
-
-# A whole filename, anchored so it cannot match the tail of a longer name.
-# Without the lookbehind, a converted "2.png" would also rewrite the "2.png"
-# sitting inside "cropped-BA-tamam-4-1-32x32.png", which is kept as PNG.
-FILENAME = re.compile(
-    r"(?<![A-Za-z0-9_.\-])[A-Za-z0-9_.\-]+\.(?:png|jpe?g)(?![A-Za-z0-9])",
-    re.IGNORECASE,
-)
+# The raster suffix in a URL, leaving any ?query or #fragment after it intact.
+URL_SUFFIX = re.compile(r"\.(?:png|jpe?g)(?=$|[?#])", re.IGNORECASE)
 
 
 def is_source(path: pathlib.Path) -> bool:
-    if any(part in SKIP_DIRS for part in path.parts):
+    if any(part in markup_refs.SKIP_DIRS for part in path.parts):
         return False
     if path.suffix.lower() not in SOURCE_SUFFIXES:
         return False
     return not any(marker in path.name for marker in KEEP_AS_IS)
-
-
-def reference_prefix(text: str, start: int) -> str:
-    """The path part sitting directly in front of the filename at `start`."""
-    head = -1
-    for delimiter in ('"', "'", "(", " ", ">", ",", "\t", "\n"):
-        head = max(head, text.rfind(delimiter, 0, start))
-    return text[head + 1 : start]
-
-
-def resolve_reference(
-    page: pathlib.Path, root: pathlib.Path, prefix: str, name: str
-) -> pathlib.Path | None:
-    """The file a reference points at, or None if it is not a local file.
-
-    Old posts still embed images from the previous WordPress server; those are
-    not ours to convert, so remote URLs resolve to None.
-    """
-    if prefix.startswith("//") or "://" in prefix:
-        return None
-    ref = urllib.parse.unquote(prefix + name)
-    base = root if ref.startswith("/") else page.parent
-    try:
-        return (base / ref.lstrip("/")).resolve()
-    except OSError:
-        return None
 
 
 def encode(src: pathlib.Path, dst: pathlib.Path) -> None:
@@ -162,28 +133,20 @@ def main() -> int:
 
     rewrites = 0
     touched = 0
-    for path in sorted(root.rglob("*")):
-        if not path.is_file() or path.suffix.lower() not in MARKUP_SUFFIXES:
-            continue
-        if any(part in SKIP_DIRS for part in path.parts):
-            continue
-        text = path.read_text(encoding="utf-8", errors="surrogateescape")
-
-        def swap(match: re.Match[str]) -> str:
-            name = match.group(0)
-            prefix = reference_prefix(text, match.start())
-            target = resolve_reference(path, root, prefix, name)
+    for path in markup_refs.iter_pages(root, MARKUP_SUFFIXES):
+        text = markup_refs.read(path)
+        edits = []
+        for ref in markup_refs.iter_references(text):
+            target = markup_refs.resolve(path, root, ref.raw)
             if target is None or target not in replaced:
-                return name
-            return pathlib.PurePath(name).with_suffix(".webp").name
+                continue
+            edits.append((ref.start, ref.end, URL_SUFFIX.sub(".webp", ref.raw)))
 
-        original = text
-        text = FILENAME.sub(swap, text)
-        if text != original:
+        if edits:
             touched += 1
-            rewrites += 1
+            rewrites += len(edits)
             if not args.dry_run:
-                path.write_text(text, encoding="utf-8", errors="surrogateescape")
+                markup_refs.write(path, markup_refs.apply_edits(text, edits))
 
     if args.dry_run:
         # Nothing should survive a dry run.
@@ -208,7 +171,7 @@ def main() -> int:
         else f"{verb} nothing"
     )
     print(f"kept {skipped_larger} image(s) that did not get smaller as WebP")
-    print(f"markup updated in {touched} file(s)")
+    print(f"repointed {rewrites} reference(s) across {touched} file(s)")
     return 1 if failed else 0
 
 

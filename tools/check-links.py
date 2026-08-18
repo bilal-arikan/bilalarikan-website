@@ -16,46 +16,11 @@ from __future__ import annotations
 import argparse
 import collections
 import pathlib
-import re
 import sys
-import urllib.parse
 
-# href/src on any tag, plus the url(...) form used inside inline styles.
-# `content` is deliberately left out: on <meta> it holds prose, not paths.
-REFERENCE = re.compile(
-    r"""(?:(srcset)|href|src|data-src|poster)\s*=\s*["']([^"']+)["']|url\((["']?)([^)"']+)\3\)""",
-    re.IGNORECASE,
-)
+sys.path.insert(0, str(pathlib.Path(__file__).parent))
 
-SKIPPED_SCHEMES = ("http://", "https://", "//", "mailto:", "tel:", "data:", "javascript:")
-
-
-def targets(text: str):
-    for match in REFERENCE.finditer(text):
-        value = match.group(2) or match.group(4)
-        if not value:
-            continue
-        if match.group(1):
-            # srcset holds a comma-separated list of "<url> <descriptor>" pairs.
-            for candidate in value.split(","):
-                url = candidate.strip().split()[0] if candidate.strip() else ""
-                if url:
-                    yield url
-        else:
-            yield value.strip()
-
-
-def resolve(page: pathlib.Path, root: pathlib.Path, raw: str) -> pathlib.Path | None:
-    """Return the file a reference points to, or None when it is not local."""
-    if not raw or raw.startswith("#") or raw.lower().startswith(SKIPPED_SCHEMES):
-        return None
-
-    target = urllib.parse.unquote(raw.split("#", 1)[0].split("?", 1)[0])
-    if not target:
-        return None
-
-    base = root if target.startswith("/") else page.parent
-    return (base / target.lstrip("/")).resolve()
+import markup_refs
 
 
 def main() -> int:
@@ -67,18 +32,16 @@ def main() -> int:
     broken: dict[str, list[str]] = collections.defaultdict(list)
     checked = 0
 
-    for page in sorted(root.rglob("*.html")):
-        if ".git" in page.parts:
-            continue
-        text = page.read_text(encoding="utf-8", errors="surrogateescape")
-        for raw in targets(text):
-            resolved = resolve(page, root, raw)
+    for page in markup_refs.iter_pages(root, {".html"}):
+        text = markup_refs.read(page)
+        for ref in markup_refs.iter_references(text):
+            resolved = markup_refs.resolve(page, root, ref.raw)
             if resolved is None:
                 continue
             checked += 1
             if resolved.is_file() or (resolved / "index.html").is_file():
                 continue
-            broken[raw].append(str(page.relative_to(root)).replace("\\", "/"))
+            broken[ref.raw].append(str(page.relative_to(root)).replace("\\", "/"))
 
     for raw, pages in sorted(broken.items(), key=lambda item: -len(item[1])):
         print(f"{len(pages):4d}x  {raw}")

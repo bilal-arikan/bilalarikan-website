@@ -1,0 +1,40 @@
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python (tools/)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node (only if a build step is ever added)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Local previews and scratch output
+.cache/
+*.log
+*.tmp
+*.bak
+*.orig
+
+# WordPress artifacts — this repo is a static export, these must never come back
+wp-admin/
+wp-json/
+wp-login.php
+xmlrpc.php
+wp-config.php
+*.php

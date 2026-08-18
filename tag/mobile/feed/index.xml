@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Mobile &#8211; Bilal ARIKAN</title>
-	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<atom:link href="./index.xml" rel="self" type="application/rss+xml" />
 	<link>./../../../index.html</link>
 	<description>Programmer, Designer, Dreamer</description>
 	<lastBuildDate>Fri, 26 Nov 2021 22:59:51 +0000</lastBuildDate>

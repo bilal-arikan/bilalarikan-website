@@ -27,6 +27,15 @@ REFERENCE = re.compile(
     re.IGNORECASE,
 )
 
+# On <meta>, `content` usually holds prose ("width=device-width"), so it is not
+# in REFERENCE. On the image metas it holds a real path, and nothing else would
+# ever check those.
+IMAGE_META = re.compile(
+    r"""<meta\b(?=[^>]*(?:og:image|twitter:image|msapplication-TileImage))"""
+    r"""[^>]*?content\s*=\s*(?P<quote>["'])(?P<value>[^"']+)(?P=quote)""",
+    re.IGNORECASE,
+)
+
 SKIPPED_SCHEMES = (
     "http://",
     "https://",
@@ -76,6 +85,10 @@ def iter_references(text: str) -> Iterator[Reference]:
                 at = value.index(url, cursor)
                 yield Reference(offset + at, offset + at + len(url), url)
             cursor += len(part) + 1
+
+    for match in IMAGE_META.finditer(text):
+        value, offset = match.group("value"), match.start("value")
+        yield Reference(offset, offset + len(value), value)
 
 
 def resolve(page: pathlib.Path, root: pathlib.Path, raw: str) -> pathlib.Path | None:

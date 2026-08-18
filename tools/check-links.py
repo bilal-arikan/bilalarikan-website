@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Report local references in the HTML that point at files which do not exist.
+"""Report local references in the markup that point at files which do not exist.
 
 Only local targets are checked — external URLs, mailto:, tel: and in-page
 anchors are skipped. Query strings and fragments are stripped before resolving,
@@ -32,7 +32,10 @@ def main() -> int:
     broken: dict[str, list[str]] = collections.defaultdict(list)
     checked = 0
 
-    for page in markup_refs.iter_pages(root, {".html"}):
+    # Feeds embed the same markup as the pages and go just as stale, so they
+    # are checked too — the images inside them broke once without anyone
+    # noticing, because only .html was scanned.
+    for page in markup_refs.iter_pages(root, {".html", ".xml"}):
         text = markup_refs.read(page)
         for ref in markup_refs.iter_references(text):
             resolved = markup_refs.resolve(page, root, ref.raw)

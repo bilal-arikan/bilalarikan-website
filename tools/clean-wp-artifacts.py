@@ -19,6 +19,10 @@ import pathlib
 import re
 import sys
 
+sys.path.insert(0, str(pathlib.Path(__file__).parent))
+
+import markup_refs
+
 # Each rule is (label, pattern, replacement). The replacement is empty for the
 # rules that delete markup outright.
 RULES: list[tuple[str, re.Pattern[str], str]] = [
@@ -84,6 +88,13 @@ RULES: list[tuple[str, re.Pattern[str], str]] = [
         re.compile(r"(?<![\w-])feed/index\.html"),
         "feed/index.xml",
     ),
+    (
+        # Same mistake seen from inside the feed: a feed's self link names the
+        # file it is served as, and the export wrote index.html there too.
+        "feed self link (atom:link rel=self) naming index.html",
+        re.compile(r'(<atom:link href=")\./index\.html(" rel="self")'),
+        r"\1./index.xml\2",
+    ),
 ]
 
 
@@ -107,10 +118,9 @@ def main() -> int:
     changed = 0
     saved = 0
 
-    for path in sorted(root.rglob("*.html")):
-        if ".git" in path.parts:
-            continue
-        original = path.read_text(encoding="utf-8", errors="surrogateescape")
+    # Feeds carry the same markup and the same stale paths as the pages.
+    for path in markup_refs.iter_pages(root, {".html", ".xml"}):
+        original = markup_refs.read(path)
         cleaned, hits = clean(original)
         if not hits:
             continue
@@ -119,7 +129,7 @@ def main() -> int:
         for label, count in hits.items():
             totals[label] = totals.get(label, 0) + count
         if not args.dry_run:
-            path.write_text(cleaned, encoding="utf-8", errors="surrogateescape")
+            markup_refs.write(path, cleaned)
 
     for label, count in sorted(totals.items(), key=lambda item: -item[1]):
         print(f"{count:5d}x  {label}")

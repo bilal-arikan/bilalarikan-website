@@ -9,7 +9,7 @@
 
 <channel>
 	<title>AI &#8211; Bilal ARIKAN</title>
-	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<atom:link href="./index.xml" rel="self" type="application/rss+xml" />
 	<link>./../../../index.html</link>
 	<description>Programmer, Designer, Dreamer</description>
 	<lastBuildDate>Sun, 20 Jun 2021 23:04:38 +0000</lastBuildDate>

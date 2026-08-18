@@ -41,11 +41,12 @@ betikler `--dry-run` ile yazmadan rapor verir.
 
 | Betik | Ne yapar |
 |---|---|
-| `tools/check-links.py` | HTML içindeki tüm yerel `href`/`src`/`srcset`/`url()` hedeflerini tarar, var olmayan dosyaya işaret edenleri raporlar. Kırık hedef varsa çıkış kodu `1` döner |
+| `tools/check-links.py` | HTML **ve feed XML** içindeki yerel `href`/`src`/`srcset`/`url()` ve görsel `<meta content>` hedeflerini tarar, var olmayan dosyaya işaret edenleri raporlar. Kırık hedef varsa çıkış kodu `1` döner |
+| `tools/find-orphans.py` | Tersi: hiçbir yerden referans edilmeyen varlık dosyalarını listeler. Hiçbir şey silmez — önce `check-links.py` temiz olmalı, yoksa kırık link yüzünden dosya yetim görünür |
 | `tools/generate-sitemap.py` | `sitemap.xml` dosyasını yeniden üretir. `lastmod` değerini git geçmişinden alır |
-| `tools/clean-wp-artifacts.py` | WordPress'e özgü ölü işaretlemeleri (emoji betiği, XML-RPC/pingback linkleri, REST keşif linkleri, yorum formu) söker; RSS keşif linkini gerçek dosyaya (`feed/index.xml`) yönlendirir |
+| `tools/clean-wp-artifacts.py` | WordPress'e özgü ölü işaretlemeleri (emoji betiği, XML-RPC/pingback linkleri, REST keşif linkleri, yorum formu) söker; RSS keşif linkini ve feed'lerin kendi `atom:link rel="self"` değerini gerçek dosyaya (`index.xml`) yönlendirir |
 | `tools/convert-images-to-webp.py` | JPEG/PNG görselleri WebP'ye çevirir ve tüm referansları günceller. Favicon'lar PNG kalır; `foto.jpg` + `foto.png` gibi aynı gövdeli çiftlere dokunmaz; yalnızca çözümlenen yolu gerçekten dönüştürülen dosya olan referansları değiştirir |
-| `tools/markup_refs.py` | Betik değil, ortak modül: işaretlemedeki dosya referanslarını bulur ve diskteki yola çözer. `check-links.py` ile `convert-images-to-webp.py` aynı ayrıştırıcıyı kullansın diye vardır |
+| `tools/markup_refs.py` | Betik değil, ortak modül: işaretlemedeki dosya referanslarını bulur ve diskteki yola çözer. Diğer betikler aynı ayrıştırıcıyı kullansın diye vardır |
 
 İçerik değişikliğinden sonra çalıştırılacak akış:
 
@@ -53,10 +54,8 @@ betikler `--dry-run` ile yazmadan rapor verir.
 python tools/convert-images-to-webp.py    # yeni görsel eklendiyse (Pillow gerekir)
 python tools/generate-sitemap.py          # yeni sayfa eklendiyse
 python tools/check-links.py               # her zaman: kırık hedef var mı
+python tools/find-orphans.py              # ara sıra: kullanılmayan dosya birikti mi
 ```
-
-`clean-wp-artifacts.py` işini bir kez yaptı; kuralları yalnızca markup'a
-WordPress kalıntısı geri karışırsa tekrar gerekir.
 
 ## Notlar
 

@@ -1,0 +1,15 @@
+Remove CConsole, Auto Define Symbols and Kuheylan VPN
+
+Three of the fourteen projects added this week are out at the owner's request.
+Each had a page, a card on the home page, cards on its category and tag pages,
+and seven to eight image files; all of it is gone.
+
+The taxonomy builder needed a change to manage it. It refreshed cards for
+projects it knew about, so dropping a project from the list left its card
+stranded on the category pages, still pointing at a page and images that no
+longer exist. It now sweeps generated cards whose project is no longer listed
+before inserting the current ones.
+
+62 URLs in the sitemap, down from 65. Link check passes over 8950 references,
+no broken targets and no unreferenced assets: the deleted images went with the
+pages that used them.

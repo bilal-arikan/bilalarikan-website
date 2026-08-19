@@ -81,6 +81,16 @@ RULES: list[tuple[str, re.Pattern[str], str]] = [
         "",
     ),
     (
+        # The export baked in the old host's bare IP. Share buttons therefore
+        # publish a dead address, and the search form would POST a visitor's
+        # query to a machine that is no longer ours. Image URLs on that host are
+        # deliberately left alone: the files there are the pre-WebP originals
+        # under different names, so rewriting them would break them.
+        "old server address in share buttons and the search form",
+        re.compile(r"http://128\.199\.36\.238/(?!wp-content)"),
+        "https://www.bilalarikan.com/",
+    ),
+    (
         # Not a deletion: WordPress resolved the pretty URL /feed/ server side,
         # but the export wrote index.xml, so the advertised path 404s and no
         # reader can subscribe.

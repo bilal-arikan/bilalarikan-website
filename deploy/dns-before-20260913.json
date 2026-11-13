@@ -1,0 +1,20 @@
+{
+  "zone": "bilalarikan.com",
+  "observed_at": "2026-09-13",
+  "records": [
+    {"type":"A","name":"*.bilalarikan.com","content":"212.108.107.194","proxied":false,"ttl":"Auto"},
+    {"type":"A","name":"bilalarikan.com","content":"185.199.111.153","proxied":true,"ttl":"Auto"},
+    {"type":"A","name":"bilalarikan.com","content":"185.199.110.153","proxied":true,"ttl":"Auto"},
+    {"type":"A","name":"bilalarikan.com","content":"185.199.109.153","proxied":true,"ttl":"Auto"},
+    {"type":"A","name":"bilalarikan.com","content":"185.199.108.153","proxied":true,"ttl":"Auto"},
+    {"type":"A","name":"www.bilalarikan.com","content":"185.199.111.153","proxied":true,"ttl":"Auto"},
+    {"type":"A","name":"www.bilalarikan.com","content":"185.199.110.153","proxied":true,"ttl":"Auto"},
+    {"type":"A","name":"www.bilalarikan.com","content":"185.199.109.153","proxied":true,"ttl":"Auto"},
+    {"type":"A","name":"www.bilalarikan.com","content":"185.199.108.153","proxied":true,"ttl":"Auto"},
+    {"type":"CNAME","name":"_domainconnect.bilalarikan.com","content":"_domainconnect.domains.squarespace.com","proxied":true,"ttl":"Auto"},
+    {"type":"NS","name":"bilalarikan.com","content":"ns-cloud-b4.googledomains.com","proxied":false,"ttl":"Auto"},
+    {"type":"NS","name":"bilalarikan.com","content":"ns-cloud-b3.googledomains.com","proxied":false,"ttl":"Auto"},
+    {"type":"NS","name":"bilalarikan.com","content":"ns-cloud-b2.googledomains.com","proxied":false,"ttl":"Auto"},
+    {"type":"NS","name":"bilalarikan.com","content":"ns-cloud-b1.googledomains.com","proxied":false,"ttl":"Auto"}
+  ]
+}

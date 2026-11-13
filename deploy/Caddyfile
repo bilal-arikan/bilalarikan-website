@@ -1,0 +1,29 @@
+bilalarikan.com {
+    tls /var/www/.bilalarikan-tls/origin.pem /var/www/.bilalarikan-tls/origin.key
+    redir https://www.bilalarikan.com{uri} permanent
+}
+
+www.bilalarikan.com {
+    tls /var/www/.bilalarikan-tls/origin.pem /var/www/.bilalarikan-tls/origin.key
+    root * /var/www/bilalarikan/current
+    encode zstd gzip
+    header {
+        X-Content-Type-Options nosniff
+        Referrer-Policy strict-origin-when-cross-origin
+        X-Frame-Options SAMEORIGIN
+        Cache-Control "public, max-age=0, must-revalidate"
+        X-Portfolio-Origin bilalarikan-vps
+        -Server
+    }
+    @private path /.git/* /.env* /deploy/* /content/* /tools/* /src/*
+    respond @private 404
+    @media path /wp-content/*
+    header @media Cache-Control "public, max-age=86400"
+    @export path /api.json
+    header @export Access-Control-Allow-Origin "*"
+    file_server
+    handle_errors {
+        rewrite * /404.html
+        file_server
+    }
+}

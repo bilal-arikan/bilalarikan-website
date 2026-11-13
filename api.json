@@ -1,0 +1,809 @@
+{
+  "schema_version": 1,
+  "source": "bilalarikan",
+  "site_url": "https://www.bilalarikan.com",
+  "projects": [
+    {
+      "slug": "sea-treasure-pirate-run",
+      "name": "Sea Treasure – Pirate Run",
+      "summary": null,
+      "url": "https://play.google.com/store/apps/details?id=com.bilalarikan.stpr",
+      "source_url": "https://www.bilalarikan.com/sea-treasure-pirate-run/",
+      "tags": [
+        "Games",
+        "GameDevelopment",
+        "Unity"
+      ],
+      "status": null,
+      "priority": 6,
+      "date": "2020-05-19",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2020/05/ss0_960-520x293.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<figure>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div><iframe title=\"sea treasure pirate run video\" src=\"https://www.youtube.com/embed/IyLsl1X1gUc?feature=oembed\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe></div>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://play.google.com/store/apps/details?id=com.bilalarikan.stpr\">https://play.google.com/store/apps/details?id=com.bilalarikan.stpr</a>\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://gamejolt.com/games/Sea-Treasure-Pirate-Run/331554\">https://gamejolt.com/games/Sea-Treasure-Pirate-Run/331554</a>\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\n\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss0_960.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss0_960.webp\" loading=\"lazy\" alt=\"sea treasure pirate run\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss2.png\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss2.png\" loading=\"lazy\" alt=\"sea treasure pirate run\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss3.png\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss3.png\" loading=\"lazy\" alt=\"sea treasure pirate run\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss4.png\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss4.png\" loading=\"lazy\" alt=\"sea treasure pirate run\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss5.png\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss5.png\" loading=\"lazy\" alt=\"sea treasure pirate run\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss7.png\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss7.png\" loading=\"lazy\" alt=\"sea treasure pirate run\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss8.png\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss8.png\" loading=\"lazy\" alt=\"sea treasure pirate run\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+    },
+    {
+      "slug": "ar-portal-worlds",
+      "name": "AR Portal Worlds",
+      "summary": "Augmented Reality Portals, made with Unity",
+      "url": "https://github.com/bilal-arikan/AR-Portal-World",
+      "source_url": "https://www.bilalarikan.com/ar-portal-worlds/",
+      "tags": [
+        "AR & XR",
+        "AR",
+        "Unity"
+      ],
+      "status": null,
+      "priority": 5,
+      "date": "2020-11-21",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2020/11/1.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<p>Augmented Reality Portals, made with Unity</p>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://github.com/bilal-arikan/AR-Portal-World\">https://github.com/bilal-arikan/AR-Portal-World</a>\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<figure>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div><iframe title=\"ar portal worlds video\" src=\"https://www.youtube.com/embed/pbp6-oOGEcY?feature=oembed\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe></div>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<figure>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div><iframe title=\"ar portal worlds video\" src=\"https://www.youtube.com/embed/_hBEmU1KDrg?feature=oembed\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe></div>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</figure>"
+    },
+    {
+      "slug": "obsidian-coloring",
+      "name": "Obsidian Coloring",
+      "summary": "An Obsidian plugin that colors files and folders in the file explorer through a native color picker. In a vault with hundreds of notes, color is faster to scan than names, so the sidebar becomes navigable at a glance.",
+      "url": "https://github.com/bilal-arikan/obsidian-coloring",
+      "source_url": "https://www.bilalarikan.com/obsidian-coloring/",
+      "tags": [
+        "Software & Tools"
+      ],
+      "status": null,
+      "priority": 4,
+      "date": "2026-06-24",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2026/08/obsidian-coloring-1-card-520x292.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<figure><img loading=\"lazy\" src=\"https://www.bilalarikan.com/wp-content/uploads/2026/08/obsidian-coloring-1.webp\" alt=\"obsidian coloring\" /></figure>\n\n\t\t\t\t\t\t\t\t\t\t\t<p>An Obsidian plugin that colors files and folders in the file explorer through a native color picker. In a vault with hundreds of notes, color is faster to scan than names, so the sidebar becomes navigable at a glance.</p>\n\n\t\t\t\t\t\t\t\t\t\t\t<p>Written in TypeScript for the Obsidian plugin API.</p>\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://github.com/bilal-arikan/obsidian-coloring\">https://github.com/bilal-arikan/obsidian-coloring</a></p>\n\n\t\t\t\t\t\t\t\t\t\t\t<figure><img loading=\"lazy\" src=\"https://www.bilalarikan.com/wp-content/uploads/2026/08/obsidian-coloring-2.webp\" alt=\"obsidian coloring\" /></figure>"
+    },
+    {
+      "slug": "mountain-tires",
+      "name": "Mountain Tires",
+      "summary": null,
+      "url": "https://gamejolt.com/games/Mountain-Tires/340047",
+      "source_url": "https://www.bilalarikan.com/mountain-tires/",
+      "tags": [
+        "Games",
+        "GameDevelopment",
+        "Unity"
+      ],
+      "status": null,
+      "priority": 3,
+      "date": "2019-05-20",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2020/05/1280x720-520x293.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<figure><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/1280x720-1024x576.webp\" alt=\"mountain tires\" loading=\"lazy\" /></figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://gamejolt.com/games/Mountain-Tires/340047\">https://gamejolt.com/games/Mountain-Tires/340047</a>\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\n\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_1920x1080_2018-05-14_20-12-42.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_1920x1080_2018-05-14_20-12-42.webp\" loading=\"lazy\" alt=\"mountain tires\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_1920x1080_2018-05-14_20-09-31.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_1920x1080_2018-05-14_20-09-31.webp\" loading=\"lazy\" alt=\"mountain tires\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/9-1.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/9-1.webp\" loading=\"lazy\" alt=\"mountain tires\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/8-1.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/8-1.webp\" loading=\"lazy\" alt=\"mountain tires\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/6-1.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/6-1.webp\" loading=\"lazy\" alt=\"mountain tires\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/1.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/1.webp\" loading=\"lazy\" alt=\"mountain tires\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/Icon.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/Icon.webp\" loading=\"lazy\" alt=\"mountain tires\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/1280x720.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/1280x720.webp\" loading=\"lazy\" alt=\"mountain tires\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p></p>"
+    },
+    {
+      "slug": "pocketbase-forge",
+      "name": "PocketBase Forge",
+      "summary": "A self-contained, multi-tenant PocketBase host. A single small Bun service acts as both the management API and the reverse proxy, so several isolated PocketBase instances run behind one process instead of one deployment each.",
+      "url": "https://github.com/bilal-arikan/pocketbase-forge",
+      "source_url": "https://www.bilalarikan.com/pocketbase-forge/",
+      "tags": [
+        "Software & Tools"
+      ],
+      "status": null,
+      "priority": 2,
+      "date": "2026-06-09",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2026/08/pocketbase-forge-1-card-520x250.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<figure><img loading=\"lazy\" src=\"https://www.bilalarikan.com/wp-content/uploads/2026/08/pocketbase-forge-1-1024x485.webp\" alt=\"pocketbase forge\" /></figure>\n\n\t\t\t\t\t\t\t\t\t\t\t<p>A self-contained, multi-tenant PocketBase host. A single small Bun service acts as both the management API and the reverse proxy, so several isolated PocketBase instances run behind one process instead of one deployment each.</p>\n\n\t\t\t\t\t\t\t\t\t\t\t<p>Bun and JavaScript, meant to be dropped onto a single server.</p>\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://github.com/bilal-arikan/pocketbase-forge\">https://github.com/bilal-arikan/pocketbase-forge</a></p>"
+    },
+    {
+      "slug": "real-world-to-unity",
+      "name": "Real World To Unity",
+      "summary": "Downloads heightmaps from Terrain.party, caches them, and generates procedural terrain in Unity from real-world locations. Pick a place on the map and it becomes a playable landscape.",
+      "url": "https://github.com/bilal-arikan/Real-World-To-Unity",
+      "source_url": "https://www.bilalarikan.com/real-world-to-unity/",
+      "tags": [
+        "Unity & Assets",
+        "Unity"
+      ],
+      "status": null,
+      "priority": 1,
+      "date": "2020-08-10",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2026/08/real-world-to-unity-1-card-520x274.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<figure><img loading=\"lazy\" src=\"https://www.bilalarikan.com/wp-content/uploads/2026/08/real-world-to-unity-1-1024x540.webp\" alt=\"real world to unity\" /></figure>\n\n\t\t\t\t\t\t\t\t\t\t\t<p>Downloads heightmaps from Terrain.party, caches them, and generates procedural terrain in Unity from real-world locations. Pick a place on the map and it becomes a playable landscape.</p>\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://github.com/bilal-arikan/Real-World-To-Unity\">https://github.com/bilal-arikan/Real-World-To-Unity</a></p>\n\n\t\t\t\t\t\t\t\t\t\t\t<figure><img loading=\"lazy\" src=\"https://www.bilalarikan.com/wp-content/uploads/2026/08/real-world-to-unity-2-1024x551.webp\" alt=\"real world to unity\" /></figure>"
+    },
+    {
+      "slug": "vestel-smart-oven-interface",
+      "name": "Vestel Smart Oven Interface",
+      "summary": "A user interface for Vestel's next-generation smart ovens, built with the Unity game engine.",
+      "url": "https://youtu.be/SUMQbjIGEL0",
+      "source_url": "https://www.bilalarikan.com/vestel-smart-oven-interface/",
+      "tags": [
+        "Software & Tools",
+        "Unity",
+        "UI/UX"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2026-09-15",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2026/09/vestel-smart-oven-interface.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<p>The software screen I developed for Vestel ovens is an innovative user interface (UI/UX) project designed for next-generation smart ovens and built with the Unity game engine.</p><p>By bringing industrial kitchen technology together with a modern digital display experience, it aims to give users maximum convenience.</p><p><a href=\"https://youtu.be/SUMQbjIGEL0\">Watch the video on YouTube</a></p><figure><iframe title=\"Vestel smart oven interface video\" src=\"https://www.youtube.com/embed/SUMQbjIGEL0?feature=oembed\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe></figure><figure><img src=\"https://www.bilalarikan.com/wp-content/uploads/2026/09/vestel-smart-oven-interface.webp\" alt=\"Vestel logo over fresh ingredients on a dark wooden table\" loading=\"lazy\" /></figure>"
+    },
+    {
+      "slug": "farkindayim",
+      "name": "Farkındayım",
+      "summary": "An artist-led social impact website connecting music, visual storytelling, and animal welfare through the Bir Patinin Nesi Var? campaign.",
+      "url": "https://farkindayim.tr/en",
+      "source_url": "https://www.bilalarikan.com/farkindayim/",
+      "tags": [
+        "Software & Tools",
+        "Website",
+        "Social Impact"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2026-09-14",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2026/09/farkindayim.png",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<p>Farkındayım brings artists together to create work around social issues. The website presents the initiative, its team, campaigns, and visual archive.</p><p>Its Bir Patinin Nesi Var? campaign brings 32 artists together through a song and music video to support animal health and welfare.</p><p><a href=\"https://farkindayim.tr/en\">Visit Farkındayım</a></p><figure><img src=\"https://www.bilalarikan.com/wp-content/uploads/2026/09/farkindayim.png\" alt=\"Farkındayım campaign website\" loading=\"lazy\" /></figure>"
+    },
+    {
+      "slug": "obsidian-pocket-sync",
+      "name": "Obsidian Pocket Sync",
+      "summary": "Syncs an Obsidian vault across devices through a self-hosted PocketBase server. It is an alternative to the paid sync service for people who would rather keep their notes on their own machine.",
+      "url": "https://github.com/bilal-arikan/obsidian-pocket-sync",
+      "source_url": "https://www.bilalarikan.com/obsidian-pocket-sync/",
+      "tags": [
+        "Software & Tools"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2026-06-24",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2026/08/obsidian-pocket-sync-1-card-520x544.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<figure><img loading=\"lazy\" src=\"https://www.bilalarikan.com/wp-content/uploads/2026/08/obsidian-pocket-sync-1-1024x1070.webp\" alt=\"obsidian pocket sync\" /></figure>\n\n\t\t\t\t\t\t\t\t\t\t\t<p>Syncs an Obsidian vault across devices through a self-hosted PocketBase server. It is an alternative to the paid sync service for people who would rather keep their notes on their own machine.</p>\n\n\t\t\t\t\t\t\t\t\t\t\t<p>TypeScript plugin plus a PocketBase backend.</p>\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://github.com/bilal-arikan/obsidian-pocket-sync\">https://github.com/bilal-arikan/obsidian-pocket-sync</a></p>\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://bilal-arikan.github.io/obsidian-pocket-sync/\">https://bilal-arikan.github.io/obsidian-pocket-sync/</a></p>"
+    },
+    {
+      "slug": "sticcker",
+      "name": "Sticcker",
+      "summary": "A sticker pack creator for WhatsApp and Telegram. Pick images, crop them, and the app produces a pack in the format each messenger expects – including the sizing and transparency rules they enforce.",
+      "url": "https://github.com/bilal-arikan/Sticcker",
+      "source_url": "https://www.bilalarikan.com/sticcker/",
+      "tags": [
+        "Software & Tools",
+        "Flutter"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2026-03-17",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2026/08/sticcker-2-card-520x900.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<figure><img loading=\"lazy\" src=\"https://www.bilalarikan.com/wp-content/uploads/2026/08/sticcker-2-1024x2219.webp\" alt=\"sticcker\" /></figure>\n\n\t\t\t\t\t\t\t\t\t\t\t<p>A sticker pack creator for WhatsApp and Telegram. Pick images, crop them, and the app produces a pack in the format each messenger expects – including the sizing and transparency rules they enforce.</p>\n\n\t\t\t\t\t\t\t\t\t\t\t<p>Built with Flutter, so one codebase covers both platforms.</p>\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://github.com/bilal-arikan/Sticcker\">https://github.com/bilal-arikan/Sticcker</a></p>\n\n\t\t\t\t\t\t\t\t\t\t\t<figure><img loading=\"lazy\" src=\"https://www.bilalarikan.com/wp-content/uploads/2026/08/sticcker-1-1024x2219.webp\" alt=\"sticcker\" /></figure>\n\n\t\t\t\t\t\t\t\t\t\t\t<figure><img loading=\"lazy\" src=\"https://www.bilalarikan.com/wp-content/uploads/2026/08/sticcker-3-1024x2219.webp\" alt=\"sticcker\" /></figure>"
+    },
+    {
+      "slug": "youtube-glance",
+      "name": "YoutubeGlance",
+      "summary": "Turn YouTube captions into a summary prompt for your preferred AI assistant. Choose a language and summary style, then start directly from the video player.",
+      "url": "https://chromewebstore.google.com/detail/bnmelfbenpookpgolmnaiipmicmfbbpb",
+      "source_url": "https://www.bilalarikan.com/youtube-glance/",
+      "tags": [
+        "Software & Tools",
+        "AI",
+        "Chrome Extension",
+        "TypeScript"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2026-03-16",
+      "icon_url": "https://www.bilalarikan.com/wp-content/uploads/2026/09/youtubeglance-icon.png",
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2026/09/youtubeglance-cover.png",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<p>Get the key ideas from a long video with a caption-based workflow. YoutubeGlance extracts available YouTube captions and prepares a prompt for the AI assistant you choose.</p><h2>From video to summary prompt</h2><ol><li>Open a YouTube video with available captions and select Glance in the player.</li><li>Choose your summary language, AI service, and prompt template.</li><li>Insert the prepared prompt into the selected AI website, or copy it for manual use.</li></ol><h2>Your preferred AI, your summary style</h2><p>Choose from short, detailed, web-enhanced, or custom prompt templates. Supported destinations include ChatGPT, Claude, Gemini, Google AI Studio, Grok, DeepSeek, Kimi, and MiniMax.</p><p>Automatic submission is optional. The read-aloud option can activate a supported AI website's own speech control. Available features depend on the selected service and your account.</p><h2>How your data is used</h2><p>Preferences and custom templates are stored locally in your browser. When you transfer a prompt, the video title, captions, and any custom instructions included in it are shared with the AI website you selected. That service handles the content under its own policies.</p><p>YoutubeGlance prepares prompts; the selected AI service generates the summary. Caption availability and quality affect the result, and a service may require sign-in or its own subscription.</p><figure><img loading=\"lazy\" src=\"https://www.bilalarikan.com/wp-content/uploads/2026/09/youtubeglance-workflow.png\" alt=\"YoutubeGlance workflow with the YouTube player button, language and AI selectors, and summary templates\" /><figcaption>Start in the YouTube player, choose a summary style, and transfer the caption-based prompt to your selected AI service.</figcaption></figure><p>Built with TypeScript for Chrome. <a href=\"https://github.com/bilal-arikan/YoutubeGlance\">Explore the source on GitHub</a>.</p>"
+    },
+    {
+      "slug": "instagram-follower-tracker",
+      "name": "Instagram Follower Tracker",
+      "summary": "A browser extension that tracks your Instagram followers over time and shows who unfollowed you. Instagram gives you the current list and nothing else, so the extension keeps its own history locally and diffs it.",
+      "url": "https://github.com/bilal-arikan/InstagramFollowerTrackerExt",
+      "source_url": "https://www.bilalarikan.com/instagram-follower-tracker/",
+      "tags": [
+        "Software & Tools"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2026-02-25",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2026/08/instagramfollowertrackerext-1-card-520x795.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<figure><img loading=\"lazy\" src=\"https://www.bilalarikan.com/wp-content/uploads/2026/08/instagramfollowertrackerext-1.webp\" alt=\"instagram follower tracker\" /></figure>\n\n\t\t\t\t\t\t\t\t\t\t\t<p>A browser extension that tracks your Instagram followers over time and shows who unfollowed you. Instagram gives you the current list and nothing else, so the extension keeps its own history locally and diffs it.</p>\n\n\t\t\t\t\t\t\t\t\t\t\t<p>Everything stays in the browser – no account, no server.</p>\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://github.com/bilal-arikan/InstagramFollowerTrackerExt\">https://github.com/bilal-arikan/InstagramFollowerTrackerExt</a></p>\n\n\t\t\t\t\t\t\t\t\t\t\t<figure><img loading=\"lazy\" src=\"https://www.bilalarikan.com/wp-content/uploads/2026/08/instagramfollowertrackerext-2.webp\" alt=\"instagram follower tracker\" /></figure>\n\n\t\t\t\t\t\t\t\t\t\t\t<figure><img loading=\"lazy\" src=\"https://www.bilalarikan.com/wp-content/uploads/2026/08/instagramfollowertrackerext-3.webp\" alt=\"instagram follower tracker\" /></figure>"
+    },
+    {
+      "slug": "fixma",
+      "name": "Fixma – Figma Plugin",
+      "summary": "An all-in-one Figma plugin for analyzing, fixing and organizing design files. It scans a document for the problems that accumulate in large files – detached styles, inconsistent spacing, unused components – and fixes them in place instead of only reporting them.",
+      "url": "https://github.com/bilal-arikan/fixma",
+      "source_url": "https://www.bilalarikan.com/fixma/",
+      "tags": [
+        "Software & Tools"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2026-02-10",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2026/08/fixma-1-card-520x640.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<figure><img loading=\"lazy\" src=\"https://www.bilalarikan.com/wp-content/uploads/2026/08/fixma-1.webp\" alt=\"fixma\" /></figure>\n\n\t\t\t\t\t\t\t\t\t\t\t<p>An all-in-one Figma plugin for analyzing, fixing and organizing design files. It scans a document for the problems that accumulate in large files – detached styles, inconsistent spacing, unused components – and fixes them in place instead of only reporting them.</p>\n\n\t\t\t\t\t\t\t\t\t\t\t<p>Built with TypeScript against the Figma plugin API.</p>\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://github.com/bilal-arikan/fixma\">https://github.com/bilal-arikan/fixma</a></p>\n\n\t\t\t\t\t\t\t\t\t\t\t<figure><img loading=\"lazy\" src=\"https://www.bilalarikan.com/wp-content/uploads/2026/08/fixma-2.webp\" alt=\"fixma\" /></figure>\n\n\t\t\t\t\t\t\t\t\t\t\t<figure><img loading=\"lazy\" src=\"https://www.bilalarikan.com/wp-content/uploads/2026/08/fixma-3.webp\" alt=\"fixma\" /></figure>"
+    },
+    {
+      "slug": "comfyui-text-assets",
+      "name": "ComfyUI Text Assets",
+      "summary": "A ComfyUI node that lets you upload text files into the input folder from your own machine. ComfyUI handles images this way but not text, which makes prompt files awkward to get onto a remote instance – this closes that gap.",
+      "url": "https://github.com/bilal-arikan/ComfyUI_TextAssets",
+      "source_url": "https://www.bilalarikan.com/comfyui-text-assets/",
+      "tags": [
+        "Software & Tools",
+        "AI"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2024-02-02",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2026/08/comfyui-textassets-1-card-520x373.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<figure><img loading=\"lazy\" src=\"https://www.bilalarikan.com/wp-content/uploads/2026/08/comfyui-textassets-1.webp\" alt=\"comfyui text assets\" /></figure>\n\n\t\t\t\t\t\t\t\t\t\t\t<p>A ComfyUI node that lets you upload text files into the input folder from your own machine. ComfyUI handles images this way but not text, which makes prompt files awkward to get onto a remote instance – this closes that gap.</p>\n\n\t\t\t\t\t\t\t\t\t\t\t<p>Python, installed as a custom node.</p>\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://github.com/bilal-arikan/ComfyUI_TextAssets\">https://github.com/bilal-arikan/ComfyUI_TextAssets</a></p>"
+    },
+    {
+      "slug": "simple-mini-map-asset",
+      "name": "Simple Mini Map Asset",
+      "summary": "Simple Mini Map package includes the easy-to-use MiniMap feature. It contains very little code.",
+      "url": "https://github.com/bilal-arikan/UnitySimpleMiniMap",
+      "source_url": "https://www.bilalarikan.com/simple-mini-map-asset/",
+      "tags": [
+        "Unity & Assets",
+        "AssetStore",
+        "Unity"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2023-04-09",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2023/04/icon-520x520.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<figure><img src=\"https://www.bilalarikan.com/wp-content/uploads/2023/04/icon-1024x1024.webp\" alt=\"simple mini map asset\" loading=\"lazy\" /></figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p>Simple Mini Map package includes the easy-to-use MiniMap feature. It\n\t\t\t\t\t\t\t\t\t\t\t\tcontains very little code.</p>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://github.com/bilal-arikan/UnitySimpleMiniMap\">https://github.com/bilal-arikan/UnitySimpleMiniMap</a>\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://assetstore.unity.com/packages/slug/226420\">https://assetstore.unity.com/packages/slug/226420</a>\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<figure>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div><iframe title=\"simple mini map asset video\" src=\"https://www.youtube.com/embed/QVnJBEbhdzQ?feature=oembed\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen loading=\"lazy\"></iframe></div>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>You can import MiniMapDemo.unitypackage to review the example in the\n\t\t\t\t\t\t\t\t\t\t\t\t\tvideo</li>\n\t\t\t\t\t\t\t\t\t\t\t</ul>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>How to Use:</li>\n\t\t\t\t\t\t\t\t\t\t\t</ul>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<pre><code>var minimap = FindObjectOfType&lt;Arikan.MiniMapView&gt;();\n\n// Red object example\nvar img = minimap.FollowCentered(obj1Centered.transform);\nimg.color = obj1Centered.material.color;\n\n// Green object example\nvar img2 = minimap.Follow(obj2.transform);\nimg2.color = obj2.material.color;\n\n// Blue object example\nvar img3 = minimap.Follow(obj3.transform, obj3Sprite);\nimg3.color = obj3.material.color;</code></pre>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<figure><img src=\"https://www.bilalarikan.com/wp-content/uploads/2023/04/2-1024x488.webp\" alt=\"simple mini map asset\" loading=\"lazy\" /></figure>"
+    },
+    {
+      "slug": "survivors-and-zombies",
+      "name": "Survivors and Zombies",
+      "summary": null,
+      "url": "https://apkgk.com/com.ismail.zombies",
+      "source_url": "https://www.bilalarikan.com/survivors-and-zombies/",
+      "tags": [
+        "Games"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2022-04-23",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2022/04/6-520x390.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<p><a href=\"https://apkgk.com/com.ismail.zombies\">https://apkgk.com/com.ismail.zombies</a>\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://play.google.com/store/apps/details?hl=en&amp;id=com.ismail.zombies\">https://play.google.com/store/apps/details?hl=en&amp;id=com.ismail.zombies</a>\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<figure>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div><iframe title=\"survivors and zombies video\" src=\"https://www.youtube.com/embed/inQ0xsGgm0E?feature=oembed\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen loading=\"lazy\"></iframe></div>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<figure>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div><iframe title=\"survivors and zombies video\" src=\"https://www.youtube.com/embed/3fA3_BPnquk?feature=oembed\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen loading=\"lazy\"></iframe></div>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><img src=\"https://www.bilalarikan.com/wp-content/uploads/2022/04/1-1.webp\" alt=\"survivors and zombies\" loading=\"lazy\" /></figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><img src=\"https://www.bilalarikan.com/wp-content/uploads/2022/04/2-1.webp\" alt=\"survivors and zombies\" loading=\"lazy\" /></figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><img src=\"https://www.bilalarikan.com/wp-content/uploads/2022/04/3-1.webp\" alt=\"survivors and zombies\" loading=\"lazy\" /></figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><img src=\"https://www.bilalarikan.com/wp-content/uploads/2022/04/4-1.webp\" alt=\"survivors and zombies\" loading=\"lazy\" /></figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><img src=\"https://www.bilalarikan.com/wp-content/uploads/2022/04/5-1.webp\" alt=\"survivors and zombies\" loading=\"lazy\" /></figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><img src=\"https://www.bilalarikan.com/wp-content/uploads/2022/04/6-1.webp\" alt=\"survivors and zombies\" loading=\"lazy\" /></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+    },
+    {
+      "slug": "ar-motion-capturing",
+      "name": "AR Motion Capturing",
+      "summary": "AR Motion Capturing with ARFoundation (ARKit)",
+      "url": null,
+      "source_url": "https://www.bilalarikan.com/ar-motion-capturing/",
+      "tags": [
+        "AR & XR"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2022-02-09",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2022/02/ar-520x520.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<p>AR Motion Capturing with ARFoundation (ARKit)</p>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<figure>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div><iframe title=\"ar motion capturing video\" src=\"https://www.youtube.com/embed/FSK_dytAqRU?feature=oembed\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe></div>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<figure>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div><iframe title=\"ar motion capturing video\" src=\"https://www.youtube.com/embed/1_4MvgoWC-c?feature=oembed\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe></div>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<figure>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div><iframe title=\"ar motion capturing video\" src=\"https://www.youtube.com/embed/ZSCT9Y3if68?feature=oembed\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe></div>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</figure>"
+    },
+    {
+      "slug": "k-nearest-neighbours-dots",
+      "name": "K-Nearest Neighbours with DOTS",
+      "summary": "A K-Nearest Neighbours library for Unity built on DOTS. Nearest-neighbour queries are the kind of work that collapses under a naive loop once the object count grows, so the search runs through the job system and Burst.",
+      "url": "https://github.com/bilal-arikan/k-nearest-neighbours-dots",
+      "source_url": "https://www.bilalarikan.com/k-nearest-neighbours-dots/",
+      "tags": [
+        "Unity & Assets",
+        "Unity"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2022-01-27",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2026/08/k-nearest-neighbours-dots-1-card-520x303.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<figure><img loading=\"lazy\" src=\"https://www.bilalarikan.com/wp-content/uploads/2026/08/k-nearest-neighbours-dots-1.gif\" alt=\"k nearest neighbours dots\" /></figure>\n\n\t\t\t\t\t\t\t\t\t\t\t<p>A K-Nearest Neighbours library for Unity built on DOTS. Nearest-neighbour queries are the kind of work that collapses under a naive loop once the object count grows, so the search runs through the job system and Burst.</p>\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://github.com/bilal-arikan/k-nearest-neighbours-dots\">https://github.com/bilal-arikan/k-nearest-neighbours-dots</a></p>\n\n\t\t\t\t\t\t\t\t\t\t\t<figure><img loading=\"lazy\" src=\"https://www.bilalarikan.com/wp-content/uploads/2026/08/k-nearest-neighbours-dots-2.webp\" alt=\"k nearest neighbours dots\" /></figure>"
+    },
+    {
+      "slug": "unity3d-barracuda-image-classification-example",
+      "name": "Unity3D Barracuda image classification example",
+      "summary": null,
+      "url": "https://github.com/bilal-arikan/Object-Classification-Barracuda",
+      "source_url": "https://www.bilalarikan.com/unity3d-barracuda-image-classification-example/",
+      "tags": [
+        "Unity & Assets",
+        "AI",
+        "Unity"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2021-06-21",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2021/06/barracuda_ss-520x553.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<p><a href=\"https://github.com/bilal-arikan/Object-Classification-Barracuda\">https://github.com/bilal-arikan/Object-Classification-Barracuda</a>\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><img src=\"https://github.com/bilal-arikan/Object-Classification-Barracuda/blob/master/SS/1.gif?raw=true\" alt=\"unity3d barracuda image classification example\" loading=\"lazy\" width=\"220\" height=\"480\"></figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p></p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><img src=\"https://github.com/bilal-arikan/Object-Classification-Barracuda/raw/master/SS/2.gif?raw=true\" alt=\"unity3d barracuda image classification example\" loading=\"lazy\" width=\"220\" height=\"480\"></figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p></p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+    },
+    {
+      "slug": "mandarin-ar",
+      "name": "Mandarin AR",
+      "summary": "Well-being mobile app that analyzes users healthbehaviors with artificial intelligence (AI) and displaystheir health status and recommendationsthrough augmented reality (AR).",
+      "url": null,
+      "source_url": "https://www.bilalarikan.com/mandarin-ar/",
+      "tags": [
+        "AR & XR",
+        "AR",
+        "Unity"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2021-02-27",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2021/02/1-520x390.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<h2>AI and AR Supported<br />Well-Being App</h2>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p>Well-being mobile app that analyzes users health<br />behaviors with\n\t\t\t\t\t\t\t\t\t\t\t\tartificial intelligence (AI) and displays<br />their health status and\n\t\t\t\t\t\t\t\t\t\t\t\trecommendations<br />through augmented reality (AR).</p>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<figure>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\thttps://mandarinhealth.com/\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<figure>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div><iframe title=\"mandarin ar video\" src=\"https://www.youtube.com/embed/vTentwlRTkw?feature=oembed\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen loading=\"lazy\"></iframe></div>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<figure>\n\t\t\t\t\t\t\t\t\t\t\t\t<figure><img src=\"https://www.bilalarikan.com/wp-content/uploads/2021/02/1.jpg\" alt=\"mandarin ar\" loading=\"lazy\" /></figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t<figure><img src=\"https://www.bilalarikan.com/wp-content/uploads/2023/04/2.jpg\" alt=\"mandarin ar\" loading=\"lazy\" /></figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t<figure><img src=\"https://www.bilalarikan.com/wp-content/uploads/2023/04/3.webp\" alt=\"mandarin ar\" loading=\"lazy\" /></figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t<figure><img src=\"https://www.bilalarikan.com/wp-content/uploads/2023/04/4.webp\" alt=\"mandarin ar\" loading=\"lazy\" /></figure>\n\t\t\t\t\t\t\t\t\t\t\t</figure>"
+    },
+    {
+      "slug": "simple-archery-mechanic",
+      "name": "Simple Archery Mechanic",
+      "summary": null,
+      "url": "https://apps.apple.com/us/app/archery-duel/id1553666646",
+      "source_url": "https://www.bilalarikan.com/simple-archery-mechanic/",
+      "tags": [
+        "Unity & Assets",
+        "GameDevelopment",
+        "Unity"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2021-01-25",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2021/01/Archery_Duel_Logo.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<p><a href=\"https://apps.apple.com/us/app/archery-duel/id1553666646\">https://apps.apple.com/us/app/archery-duel/id1553666646</a>\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<figure>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div><iframe title=\"simple archery mechanic video\" src=\"https://www.youtube.com/embed/8r0S-rjRfAo?feature=oembed\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe></div>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<figure>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div><iframe title=\"simple archery mechanic video\" src=\"https://www.youtube.com/embed/44CiT1TeyD8?feature=oembed\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe></div>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</figure>"
+    },
+    {
+      "slug": "duckduckgo-images-api-unity",
+      "name": "DuckDuckGo Images API for Unity",
+      "summary": "A C# wrapper that retrieves DuckDuckGo image search results from inside Unity. Handy for prototypes that need real imagery without wiring up a paid image API first.",
+      "url": "https://github.com/bilal-arikan/duckduckgo-images-api-unity",
+      "source_url": "https://www.bilalarikan.com/duckduckgo-images-api-unity/",
+      "tags": [
+        "Unity & Assets",
+        "Unity"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2020-07-28",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2026/08/duckduckgo-images-api-unity-1-card-520x900.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<figure><img loading=\"lazy\" src=\"https://www.bilalarikan.com/wp-content/uploads/2026/08/duckduckgo-images-api-unity-1.gif\" alt=\"duckduckgo images api unity\" /></figure>\n\n\t\t\t\t\t\t\t\t\t\t\t<p>A C# wrapper that retrieves DuckDuckGo image search results from inside Unity. Handy for prototypes that need real imagery without wiring up a paid image API first.</p>\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://github.com/bilal-arikan/duckduckgo-images-api-unity\">https://github.com/bilal-arikan/duckduckgo-images-api-unity</a></p>"
+    },
+    {
+      "slug": "virtual-assistant-frodit",
+      "name": "Virtual Assistant Frodit",
+      "summary": "An Application like Siri or GoogleHome or Alexa that process data on a server side with N.L.P than returns a text callback,",
+      "url": "https://github.com/bilal-arikan/Flutter-Personal-Assistant",
+      "source_url": "https://www.bilalarikan.com/virtual-assistant-frodit/",
+      "tags": [
+        "Software & Tools",
+        "Flutter"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2020-05-31",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2020/05/3-1.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<p>An Application like Siri or GoogleHome or Alexa that process data on a\n\t\t\t\t\t\t\t\t\t\t\t\tserver side with N.L.P than returns a text callback, </p>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p>(Flutter framework, SocketIO and NodeJs)</p>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<figure>\n\t\t\t\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<figure></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/Screenshot_2020-05-31-23-33-38-673_com.arikan.frodit-485x1024.webp\" alt=\"virtual assistant frodit\" loading=\"lazy\" /></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t\t\t</figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://github.com/bilal-arikan/Flutter-Personal-Assistant\">https://github.com/bilal-arikan/Flutter-Personal-Assistant</a>\n\t\t\t\t\t\t\t\t\t\t\t</p>"
+    },
+    {
+      "slug": "foggy-valley",
+      "name": "Foggy Valley",
+      "summary": null,
+      "url": null,
+      "source_url": "https://www.bilalarikan.com/foggy-valley/",
+      "tags": [
+        "3D & Worlds",
+        "Drawings"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2020-05-20",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2020/05/1452208686273-520x352.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<figure><a href=\"https://www.bilalarikan.com/drawings/\"><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/1452208686273-1024x693.webp\" alt=\"foggy valley\" loading=\"lazy\" /></a></figure>"
+    },
+    {
+      "slug": "hop-cube",
+      "name": "Hop Cube",
+      "summary": null,
+      "url": "https://play.google.com/store/apps/details?id=com.arikan.hopcubefull",
+      "source_url": "https://www.bilalarikan.com/hop-cube/",
+      "tags": [
+        "Games"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2020-05-20",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_1920x1080_2018-12-03_01-21-00-520x293.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<figure><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/1024x500.webp\" alt=\"hop cube\" loading=\"lazy\" /></figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://play.google.com/store/apps/details?id=com.arikan.hopcubefull\">https://play.google.com/store/apps/details?id=com.arikan.hopcubefull</a>\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\n\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss12.png\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss12.png\" loading=\"lazy\" alt=\"hop cube\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss1.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss1.webp\" loading=\"lazy\" alt=\"hop cube\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss11.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss11.webp\" loading=\"lazy\" alt=\"hop cube\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss13-1.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss13-1.webp\" loading=\"lazy\" alt=\"hop cube\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss3.jpg\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss3.jpg\" loading=\"lazy\" alt=\"hop cube\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_1920x1080_2018-10-22_23-18-41.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_1920x1080_2018-10-22_23-18-41.webp\" loading=\"lazy\" alt=\"hop cube\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss4.jpg\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss4.jpg\" loading=\"lazy\" alt=\"hop cube\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss2.jpg\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss2.jpg\" loading=\"lazy\" alt=\"hop cube\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss6.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss6.webp\" loading=\"lazy\" alt=\"hop cube\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss5.jpg\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss5.jpg\" loading=\"lazy\" alt=\"hop cube\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss7.jpg\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss7.jpg\" loading=\"lazy\" alt=\"hop cube\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss8.jpg\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss8.jpg\" loading=\"lazy\" alt=\"hop cube\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss9.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss9.webp\" loading=\"lazy\" alt=\"hop cube\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_1920x1080_2018-10-22_23-21-57.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_1920x1080_2018-10-22_23-21-57.webp\" loading=\"lazy\" alt=\"hop cube\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss10.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss10.webp\" loading=\"lazy\" alt=\"hop cube\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss12.jpg\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss12.jpg\" loading=\"lazy\" alt=\"hop cube\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss14.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss14.webp\" loading=\"lazy\" alt=\"hop cube\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss15.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/ss15.webp\" loading=\"lazy\" alt=\"hop cube\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+    },
+    {
+      "slug": "neon",
+      "name": "Neon",
+      "summary": null,
+      "url": "https://play.google.com/store/apps/details?id=com.arikan.neon",
+      "source_url": "https://www.bilalarikan.com/neon/",
+      "tags": [
+        "Games",
+        "GameDevelopment",
+        "Unity"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2020-05-20",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_4320x7680_2019-09-07_01-50-49.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<figure><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/1280_720_2-1024x576.webp\" alt=\"neon\" loading=\"lazy\" /></figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://play.google.com/store/apps/details?id=com.arikan.neon\">https://play.google.com/store/apps/details?id=com.arikan.neon</a>\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\n\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_4320x7680_2019-09-07_01-50-49.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_4320x7680_2019-09-07_01-50-49.webp\" loading=\"lazy\" alt=\"neon\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_4320x7680_2019-09-07_01-43-00.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_4320x7680_2019-09-07_01-43-00.webp\" loading=\"lazy\" alt=\"neon\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_4320x7680_2019-09-07_01-49-29.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_4320x7680_2019-09-07_01-49-29.webp\" loading=\"lazy\" alt=\"neon\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_4320x7680_2019-09-07_01-42-40.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_4320x7680_2019-09-07_01-42-40.webp\" loading=\"lazy\" alt=\"neon\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_4320x7680_2019-09-07_01-42-33.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_4320x7680_2019-09-07_01-42-33.webp\" loading=\"lazy\" alt=\"neon\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_4320x7680_2019-09-07_01-42-12.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_4320x7680_2019-09-07_01-42-12.webp\" loading=\"lazy\" alt=\"neon\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_4320x7680_2019-09-07_01-41-08.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_4320x7680_2019-09-07_01-41-08.webp\" loading=\"lazy\" alt=\"neon\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_4320x7680_2019-09-07_01-40-53.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_4320x7680_2019-09-07_01-40-53.webp\" loading=\"lazy\" alt=\"neon\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_4320x7680_2019-09-07_01-40-45.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_4320x7680_2019-09-07_01-40-45.webp\" loading=\"lazy\" alt=\"neon\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_4320x7680_2019-09-07_01-40-16.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_4320x7680_2019-09-07_01-40-16.webp\" loading=\"lazy\" alt=\"neon\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+    },
+    {
+      "slug": "platforms",
+      "name": "Platforms",
+      "summary": null,
+      "url": "https://play.google.com/store/apps/details?id=com.arikan.platforms",
+      "source_url": "https://www.bilalarikan.com/platforms/",
+      "tags": [
+        "Games",
+        "GameDevelopment",
+        "Unity"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2020-05-20",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_1200x1920_2018-08-20_00-44-39-520x832.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<figure>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div><iframe title=\"platforms video\" src=\"https://www.youtube.com/embed/_SGp9eP5ovs?feature=oembed\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe></div>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://play.google.com/store/apps/details?id=com.arikan.platforms\">https://play.google.com/store/apps/details?id=com.arikan.platforms</a>\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://gamejolt.com/games/platforms/365695\">https://gamejolt.com/games/platforms/365695</a>\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\n\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_1200x1920_2018-08-20_00-45-29.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_1200x1920_2018-08-20_00-45-29.webp\" loading=\"lazy\" alt=\"platforms\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/logo1024x500.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/logo1024x500.webp\" loading=\"lazy\" alt=\"platforms\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_1200x1920_2018-08-20_01-07-48.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_1200x1920_2018-08-20_01-07-48.webp\" loading=\"lazy\" alt=\"platforms\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_1200x1920_2018-08-20_01-20-09.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_1200x1920_2018-08-20_01-20-09.webp\" loading=\"lazy\" alt=\"platforms\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_1200x1920_2018-08-20_00-46-59.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_1200x1920_2018-08-20_00-46-59.webp\" loading=\"lazy\" alt=\"platforms\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_1200x1920_2018-08-20_01-16-15.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_1200x1920_2018-08-20_01-16-15.webp\" loading=\"lazy\" alt=\"platforms\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_1200x1920_2018-08-20_01-02-47.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_1200x1920_2018-08-20_01-02-47.webp\" loading=\"lazy\" alt=\"platforms\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+    },
+    {
+      "slug": "forever-alpha",
+      "name": "Forever Alpha",
+      "summary": "A real-time strategy game with procedurally generated space ships (developed with Unreal Engine 4)",
+      "url": "https://github.com/bilal-arikan/ForeverAlpha",
+      "source_url": "https://www.bilalarikan.com/forever-alpha/",
+      "tags": [
+        "Games",
+        "GameDevelopment",
+        "UnrealEngine"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2019-07-11",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2020/07/1-520x284.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<p>A real-time strategy game with procedurally generated space ships\n\t\t\t\t\t\t\t\t\t\t\t\t(developed with Unreal Engine 4)</p>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://github.com/bilal-arikan/ForeverAlpha\">https://github.com/bilal-arikan/ForeverAlpha</a>\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\n\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/1.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/1.webp\" loading=\"lazy\" alt=\"forever alpha\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/2.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/2.webp\" loading=\"lazy\" alt=\"forever alpha\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/3.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/3.webp\" loading=\"lazy\" alt=\"forever alpha\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/4.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/4.webp\" loading=\"lazy\" alt=\"forever alpha\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/5.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/5.webp\" loading=\"lazy\" alt=\"forever alpha\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/6.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/6.webp\" loading=\"lazy\" alt=\"forever alpha\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/7.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/7.webp\" loading=\"lazy\" alt=\"forever alpha\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/8.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/8.webp\" loading=\"lazy\" alt=\"forever alpha\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/9.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/9.webp\" loading=\"lazy\" alt=\"forever alpha\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/10.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/10.webp\" loading=\"lazy\" alt=\"forever alpha\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/11.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/11.webp\" loading=\"lazy\" alt=\"forever alpha\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/12.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/12.webp\" loading=\"lazy\" alt=\"forever alpha\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/13.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/13.webp\" loading=\"lazy\" alt=\"forever alpha\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+    },
+    {
+      "slug": "real-car-parking-2",
+      "name": "Real Car Parking 2",
+      "summary": null,
+      "url": "https://play.google.com/store/apps/details?id=com.genetic.realcarparking2",
+      "source_url": "https://www.bilalarikan.com/real-car-parking-2/",
+      "tags": [
+        "Games",
+        "GameDevelopment",
+        "Unity"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2019-06-15",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2020/06/2-520x292.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<div>\n\t\t\t\t\t\t\t\t\t\t\t\t<figure><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/06/unnamed.webp\" alt=\"real car parking 2\" loading=\"lazy\" /></figure>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://play.google.com/store/apps/details?id=com.genetic.realcarparking2\">https://play.google.com/store/apps/details?id=com.genetic.realcarparking2</a>\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://apps.apple.com/tr/app/real-car-parking-2/id1366598056\">https://apps.apple.com/tr/app/real-car-parking-2/id1366598056</a>\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://www.apkshub.com/app/com.genetic.realcarparking2\">https://www.apkshub.com/app/com.genetic.realcarparking2</a>\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<figure>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div><iframe title=\"real car parking 2 video\" src=\"https://www.youtube.com/embed/qfhErcjodeg?feature=oembed\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe></div>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<figure>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div><iframe title=\"real car parking 2 video\" src=\"https://www.youtube.com/embed/rquQmFci2rM?feature=oembed\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen loading=\"lazy\"></iframe></div>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</figure>\n\n\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/06/unnamed-1.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/06/unnamed-1.webp\" loading=\"lazy\" alt=\"real car parking 2\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/06/real-car-parking-2-driving-school-2018-screenshot.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/06/real-car-parking-2-driving-school-2018-screenshot.webp\" loading=\"lazy\" alt=\"real car parking 2\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/06/Real-Car-Parking-2-Driving-School-2018-3-1024x575-1.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/06/Real-Car-Parking-2-Driving-School-2018-3-1024x575-1.webp\" loading=\"lazy\" alt=\"real car parking 2\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/06/2.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/06/2.webp\" loading=\"lazy\" alt=\"real car parking 2\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/06/DcwRDiRWkAAVHkM.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/06/DcwRDiRWkAAVHkM.webp\" loading=\"lazy\" alt=\"real car parking 2\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/06/1.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/06/1.webp\" loading=\"lazy\" alt=\"real car parking 2\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/06/screen-5.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/06/screen-5.webp\" loading=\"lazy\" alt=\"real car parking 2\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/06/a60b6c4222fc2216ea3a8b6beafb4ff2_icon.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/06/a60b6c4222fc2216ea3a8b6beafb4ff2_icon.webp\" loading=\"lazy\" alt=\"real car parking 2\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/06/screen-14.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/06/screen-14.webp\" loading=\"lazy\" alt=\"real car parking 2\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+    },
+    {
+      "slug": "floating-mountains",
+      "name": "Floating Mountains",
+      "summary": null,
+      "url": null,
+      "source_url": "https://www.bilalarikan.com/floating-mountains/",
+      "tags": [
+        "3D & Worlds",
+        "Drawings"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2019-05-20",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2020/05/1443457702634-520x293.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<figure><a href=\"https://www.bilalarikan.com/drawings/\"><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/1443457702634-1024x576.webp\" alt=\"floating mountains\" loading=\"lazy\" /></a></figure>"
+    },
+    {
+      "slug": "mushroom-town",
+      "name": "Mushroom Town",
+      "summary": null,
+      "url": null,
+      "source_url": "https://www.bilalarikan.com/mushroom-town/",
+      "tags": [
+        "3D & Worlds",
+        "Drawings"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2018-09-20",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2020/05/20150927_173903_by_bilal_arikan_dd9gbq4-520x378.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<figure><a href=\"https://www.bilalarikan.com/drawings/\"><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/20150927_173903_by_bilal_arikan_dd9gbq4.jpg\" alt=\"mushroom town\" loading=\"lazy\" /></a></figure>"
+    },
+    {
+      "slug": "mice-company",
+      "name": "Mice Company",
+      "summary": null,
+      "url": "https://www.instagram.com/mustafasag034/",
+      "source_url": "https://www.bilalarikan.com/mice-company/",
+      "tags": [
+        "Games",
+        "GameDevelopment",
+        "Unity"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2018-05-20",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2020/05/Main-FullHD-520x293.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<figure><a href=\"https://www.instagram.com/mustafasag034/\"><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/Main-FullHD-1024x576.webp\" alt=\"mice company\" loading=\"lazy\" /></a>\n\t\t\t\t\t\t\t\t\t\t\t\t<figcaption><em>Artist</em>: <strong>Mustafa SAG</strong> <a href=\"https://www.instagram.com/mustafasag034/\">https://www.instagram.com/mustafasag034/</a>\n\t\t\t\t\t\t\t\t\t\t\t\t</figcaption>\n\t\t\t\t\t\t\t\t\t\t\t</figure>\n\n\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/Main-FullHD.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/Main-FullHD.webp\" loading=\"lazy\" alt=\"mice company\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/2.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/2.webp\" loading=\"lazy\" alt=\"mice company\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/3.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/3.webp\" loading=\"lazy\" alt=\"mice company\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/4.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/4.webp\" loading=\"lazy\" alt=\"mice company\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/5.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/5.webp\" loading=\"lazy\" alt=\"mice company\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/6.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/6.webp\" loading=\"lazy\" alt=\"mice company\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/8.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/8.webp\" loading=\"lazy\" alt=\"mice company\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/7.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/7.webp\" loading=\"lazy\" alt=\"mice company\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/9.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/9.webp\" loading=\"lazy\" alt=\"mice company\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/10.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/10.webp\" loading=\"lazy\" alt=\"mice company\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/11.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/11.webp\" loading=\"lazy\" alt=\"mice company\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/12.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/12.webp\" loading=\"lazy\" alt=\"mice company\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/654.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/654.webp\" loading=\"lazy\" alt=\"mice company\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/35436.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/35436.webp\" loading=\"lazy\" alt=\"mice company\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/Ekran-Al%C4%B1nt%C4%B1s%C4%B1.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/Ekran-Al%C4%B1nt%C4%B1s%C4%B1.webp\" loading=\"lazy\" alt=\"mice company\" /></span></a></figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+    },
+    {
+      "slug": "ar-world",
+      "name": "Ar World",
+      "summary": "A real-time strategy game with Augmented Reality and Location information that can be played on a real world map",
+      "url": "https://github.com/bilal-arikan/Real-World-To-Unity",
+      "source_url": "https://www.bilalarikan.com/ar-world/",
+      "tags": [
+        "AR & XR",
+        "Unity"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2017-07-11",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2017/07/1-1-520x274.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<p>A real-time strategy game with Augmented Reality and Location information\n\t\t\t\t\t\t\t\t\t\t\t\tthat can be played on a real world map</p>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://github.com/bilal-arikan/Real-World-To-Unity\">https://github.com/bilal-arikan/Real-World-To-Unity</a>\n\t\t\t\t\t\t\t\t\t\t\t</p>"
+    },
+    {
+      "slug": "vehicle-tracking-and-social-network",
+      "name": "Vehicle Tracking and Social Network",
+      "summary": "My final project that I made in the last 2 years of the university. It is a social network application that I developed for Android and IOS Operating Systems, which uses the license plates as Id for easier communication of the drivers in the traffic, easier detection of the mistakes and easier detection of the crimes committed in traffic.",
+      "url": null,
+      "source_url": "https://www.bilalarikan.com/vehicle-tracking-and-social-network/",
+      "tags": [
+        "Software & Tools",
+        "Genel"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2017-06-01",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2017/06/vehicle-to-vehicle-communication-520x304.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<p>My final project that I made in the last 2 years of the university. It is\n\t\t\t\t\t\t\t\t\t\t\t\ta social network application that I developed for Android and IOS\n\t\t\t\t\t\t\t\t\t\t\t\tOperating Systems, which uses the license plates as Id for easier\n\t\t\t\t\t\t\t\t\t\t\t\tcommunication of the drivers in the traffic, easier detection of the\n\t\t\t\t\t\t\t\t\t\t\t\tmistakes and easier detection of the crimes committed in traffic.</p>"
+    },
+    {
+      "slug": "drone-parkour",
+      "name": "Drone Parkour",
+      "summary": null,
+      "url": "https://play.google.com/store/apps/details?id=net.farukcan.drone",
+      "source_url": "https://www.bilalarikan.com/drone-parkour/",
+      "tags": [
+        "Games",
+        "GameDevelopment",
+        "Unity"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2017-05-20",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2020/05/wall1-520x254.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<figure><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/wall1.webp\" alt=\"drone parkour\" loading=\"lazy\" /></figure>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://play.google.com/store/apps/details?id=net.farukcan.drone\">https://play.google.com/store/apps/details?id=net.farukcan.drone</a>\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\n\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/wall1.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/wall1.webp\" loading=\"lazy\" alt=\"drone parkour\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_2928x1648_2017-05-31_16-14-28.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_2928x1648_2017-05-31_16-14-28.webp\" loading=\"lazy\" alt=\"drone parkour\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/2017-05-30_21-25-27.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/2017-05-30_21-25-27.webp\" loading=\"lazy\" alt=\"drone parkour\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/2017-05-30_21-31-39.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/2017-05-30_21-31-39.webp\" loading=\"lazy\" alt=\"drone parkour\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_2504x1408_2017-05-31_15-55-49.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_2504x1408_2017-05-31_15-55-49.webp\" loading=\"lazy\" alt=\"drone parkour\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_2928x1648_2017-05-31_16-13-29.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_2928x1648_2017-05-31_16-13-29.webp\" loading=\"lazy\" alt=\"drone parkour\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_2928x1648_2017-05-31_16-13-51.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/screen_2928x1648_2017-05-31_16-13-51.webp\" loading=\"lazy\" alt=\"drone parkour\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/Logo2-1.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/05/Logo2-1.webp\" loading=\"lazy\" alt=\"drone parkour\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+    },
+    {
+      "slug": "apocalypse-deserts",
+      "name": "Apocalypse Deserts",
+      "summary": "Apocalypse Deserts Truck Simulator game (Unreal Engine 4)",
+      "url": "https://github.com/bilal-arikan/Apocalypse-Deserts",
+      "source_url": "https://www.bilalarikan.com/apocalypse-deserts/",
+      "tags": [
+        "Games",
+        "GameDevelopment",
+        "UnrealEngine"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2016-07-13",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2020/07/3-1-520x284.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<p>Apocalypse Deserts Truck Simulator game (Unreal Engine 4)</p>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p>A Trading game with truck that we can modifie every part</p>\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://github.com/bilal-arikan/Apocalypse-Deserts\">https://github.com/bilal-arikan/Apocalypse-Deserts</a>\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\n\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/1-1.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/1-1.webp\" loading=\"lazy\" alt=\"apocalypse deserts\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/3-1.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/3-1.webp\" loading=\"lazy\" alt=\"apocalypse deserts\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/2-1.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/2-1.webp\" loading=\"lazy\" alt=\"apocalypse deserts\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/4-1.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/4-1.webp\" loading=\"lazy\" alt=\"apocalypse deserts\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/5-1.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/5-1.webp\" loading=\"lazy\" alt=\"apocalypse deserts\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<figure><a href=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/6-1.webp\"><span><img src=\"https://www.bilalarikan.com/wp-content/uploads/2020/07/6-1.webp\" loading=\"lazy\" alt=\"apocalypse deserts\" /></span></a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t</figure>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+    }
+  ]
+}

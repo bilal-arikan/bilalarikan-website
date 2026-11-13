@@ -21,6 +21,9 @@ venv/
 
 # Node (only if a build step is ever added)
 node_modules/
+dist/
+artifacts/
+.env
 npm-debug.log*
 yarn-error.log*
 

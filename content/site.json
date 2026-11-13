@@ -1,0 +1,26 @@
+{
+  "name": "Bilal Arikan",
+  "role": "Software developer & creative technologist",
+  "description": "Games, useful tools, and experiments at the intersection of software and imagination.",
+  "email": "bilal1993arikan@gmail.com",
+  "github": "https://github.com/bilal-arikan",
+  "linkedin": "https://www.linkedin.com/in/bilal-arikan/",
+  "social_profiles": [
+    { "name": "LinkedIn", "url": "https://www.linkedin.com/in/bilal-arikan/", "icon": "briefcase-business" },
+    { "name": "GitHub", "url": "https://github.com/bilal-arikan", "icon": "code-xml" },
+    { "name": "GitLab", "url": "https://gitlab.com/bilal-arikan", "icon": "git-branch" },
+    { "name": "DeviantArt", "url": "https://www.deviantart.com/bilal-arikan", "icon": "palette" },
+    { "name": "YouTube", "url": "https://www.youtube.com/channel/UC3GKsVORLHtP1Tb6ZT_sFxw", "icon": "video" },
+    { "name": "Google Play", "url": "https://play.google.com/store/apps/developer?id=Arikan", "icon": "smartphone" },
+    { "name": "App Store", "url": "https://apps.apple.com/us/developer/bilal-arikan/id1436714790", "icon": "tablet-smartphone" },
+    { "name": "Steam", "url": "https://steamcommunity.com/id/bilal-arikan/", "icon": "gamepad-2" }
+  ],
+  "portrait": "/wp-content/uploads/2020/05/pp_512.webp",
+  "featured": ["sea-treasure-pirate-run", "ar-portal-worlds", "obsidian-coloring", "mountain-tires", "pocketbase-forge", "real-world-to-unity"],
+  "categories": ["Software & Tools", "Games", "AR & XR", "Unity & Assets", "3D & Worlds"],
+  "category_overrides": {
+    "comfyui-text-assets": "Software & Tools",
+    "survivors-and-zombies": "Games",
+    "hop-cube": "Games"
+  }
+}

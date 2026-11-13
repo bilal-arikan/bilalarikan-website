@@ -1,0 +1,12 @@
+.media-gallery { --columns: 3; --gutter: 18px; column-count: var(--columns); column-gap: var(--gutter); margin-top: 32px; }
+.media-gallery:where([data-count="2"]) { --columns: 2; }
+.media-gallery.masonry-ready { position: relative; column-count: auto; }
+.gallery-item { min-width: 0; margin: 0 0 18px; break-inside: avoid; }
+.masonry-ready .gallery-item { width: calc((100% - (var(--columns) - 1) * var(--gutter)) / var(--columns)); }
+.gallery-item img { width: 100%; height: auto; border-radius: 5px; }
+.gallery-item > a, .gallery-item > a > span { display: block; }
+.gallery-item figcaption { margin-top: 10px; font-size: 12px; line-height: 1.6; color: var(--muted); overflow-wrap: anywhere; }
+.gallery-item figcaption a { color: var(--green); text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 1023px) { .media-gallery { --columns: 2; } }
+@media (max-width: 599px) { .media-gallery { --columns: 1; } }
+.media-gallery:where([data-count="1"]) { --columns: 1; max-width: 900px; }

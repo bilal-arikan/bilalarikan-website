@@ -1,70 +1,129 @@
-# bilalarikan.com
+# Bilal Arikan portfolyosu
 
-[www.bilalarikan.com](https://www.bilalarikan.com) sitesinin kaynağı.
+36 proje içeren statik portfolyo ve `pp-aggregator` veri kaynağı. Eski WordPress
+dökümünün içerikleri ve yerel WebP görselleri korunarak site yeniden oluşturuldu.
+Yeni arayüzde görsellerin doğal oranını koruyan, farklı yükseklikte kartlardan
+oluşan Masonry düzeni bulunur. Ana katalog 1280 piksel ve üzerinde 5 sütundur;
+daha dar ekranlarda sırasıyla 4, 3, 2 ve 1 sütuna iner. Koyu temada kategori
+filtreleri, sıralama ve bağımsız proje sayfaları bulunur. Arama, liste görünümü
+ve "Selected work" başlığı yoktur. JavaScript kapalıyken CSS sütunları kullanılır.
+Proje adı, türü ve yılı görselin üzerindeki bilgi panelinde görünür.
+YoutubeGlance kartında kırmızı tanıtım görselini kapatmamak için bilgi paneli
+görselin altında yer alır. Güncel kapak, simge ve kullanım görseli
+`wp-content/uploads/2026/09/youtubeglance-*.png` dosyalarındadır.
+Yazılardaki görseller ayrı bir masonry galeride en fazla 3 sütunda gösterilir;
+1024 piksel altında 2, 600 piksel altında 1 sütuna iner. "More to explore" bölümü yoktur.
 
-Site, bir WordPress kurulumundan alınmış **statik HTML dökümüdür** ve GitHub Pages
-üzerinden yayınlanır. Depoda çalışan bir backend, veritabanı ya da build adımı
-yoktur — dosyalar olduğu gibi servis edilir.
+## Yerelde çalıştırma
+
+Windows 11, PowerShell, Node.js 22 veya üzeri ve Docker Desktop gereklidir.
+İki depo aynı üst klasörde bulunmalıdır:
+
+```text
+Tion/
+  bilalarikan-website/
+  pp-aggregator/
+```
+
+Site klasöründen:
+
+```powershell
+& ..\pp-aggregator\tools\start-local.ps1
+```
+
+Betik bağımlılıkları kurar, siteyi üretip denetler ve dört Docker servisini açar.
+Toplayıcının `.env` dosyası yoksa rastgele API anahtarı üretir; anahtarı ekrana
+yazmaz. Mevcut `.env` dosyasını değiştirmez.
+
+| Adres | İçerik |
+| --- | --- |
+| <http://localhost:4178> | Yeni portfolyo |
+| <http://localhost:4178/api.json> | 36 projenin kaynak verisi |
+| <http://localhost:8000/projects> | Birleştirilmiş proje listesi |
+| <http://localhost:8000/projects/pocketbase-forge> | Tam içerikli proje detayı |
+| <http://localhost:8000/sources> | Kaynakların son alınma zamanı ve güncelliği |
+
+## İçerik düzenleme
+
+| Dosya | Sorumluluk |
+| --- | --- |
+| `content/projects.json` | Proje isimleri, özetler, bağlantılar, tarihler ve temizlenmiş HTML |
+| `content/site.json` | Profil, iletişim, kategori düzeni ve öne çıkan projeler |
+| `content/pages.json` | Hakkında, iletişim, gizlilik ve diğer özgün sayfa içerikleri |
+| `assets/` | Sorumluluklarına ayrılmış CSS ve tarayıcı davranışları |
+| `assets/masonry.js`, `masonry.css` | Duyarlı sütun düzeni; filtre ve sıralama değişikliklerinde yeniden yerleşim |
+| `assets/article-gallery.css`, `tools/lib/article-gallery.mjs` | Yazı görsellerinin 3 sütunlu galeriye aktarılması; açıklama ve bağlantıların korunması |
+| `tools/lib/social.mjs` | Eski sitedeki sekiz profilin ortak alt bilgi alanında gösterilmesi |
+| `tools/lib/render.mjs` | Sayfa şablonları |
+| `tools/lib/card.mjs`, `media.mjs`, `html.mjs` | Proje kartları, gerçek görsel boyutları ve ortak HTML yardımcıları |
+| `tools/build.mjs` | HTML sayfaları, `api.json`, sitemap ve `dist/` üretimi |
+
+Değişiklikten sonra:
+
+```powershell
+npm run build
+npm run check
+```
+
+Üretilen kök `index.html`, proje HTML dosyaları, `api.json` ve sitemap doğrudan
+düzenlenmemelidir. Docker, `dist/` klasörünü salt okunur bağlar. Yeniden üretimden
+sonra tarayıcı yenilenerek değişiklik görülebilir; toplayıcı yeni veriyi en geç
+900 saniyelik eşitleme aralığında alır. Zorunlu yenileme için
+[entegrasyon belgesine](../pp-aggregator/docs/BILALARIKAN.md) bakın.
+
+Özgün tarih bulunmadığında veya yayın durumu bilinmediğinde ilgili alan `null`
+kalır. Tarihler, mevcut yazıların tarihidir; projenin çıkış tarihi olarak
+yorumlanmamalıdır. Öne çıkanların sırası, `site.json` üzerinden belirlenen
+editoryal önceliktir. Hakkında sayfasındaki geçmiş biyografi arşiv notuyla korunur.
+İletişim tablosundaki Mail-1 ve Zoom satırları kaldırılmıştır; diğer bilgiler korunur.
+Sitedeki iletişim adresi `bilal1993arikan@gmail.com` olarak güncellenmiştir.
+Eski Terms and Conditions içeriği korunur ve Privacy yanında bağlantısı bulunur.
+
+## Denetleme
+
+```powershell
+npm run check
+npm run test:browser
+```
+
+İlk komut JSON alanlarını, içerik eşleşmesini, HTML meta verilerini ve yeni
+sayfaların yerel bağlantılarını denetler. İkincisi çalışan yerel siteye Chromium
+ile bağlanır; koyu tema, filtreler, sıralama, eski arama/liste URL'lerinin uyumluluğu, görseller, detay
+sayfaları, JavaScript kapalı görünüm ve 320/390/600/900/1100/1280/1440 piksel genişliklerini
+kontrol eder. Chromium eksikse `npx playwright install chromium` çalıştırın.
+Ekran görüntüleri Git dışında bırakılan `artifacts/` klasörüne yazılır.
+
+Masonry, eski Gridzone temasındaki mevcut paket üzerinden kullanılır; derleme
+lisans başlığıyla birlikte `assets/vendor/` altına kopyalar. Görsel boyutları
+derleme sırasında ölçülüp HTML'e yazılır; yükleme sırasında kartlar sıçramaz.
+Ana katalog sütun eşikleri: 1280/1024/768/480 piksel. Yazı galerisi eşikleri 1024/600 pikseldir.
+Galeri üretimi API'deki yazı metnini değiştirmez; görsel sırası, açıklamalar,
+sanatçı kredileri ve videolar içerik denetiminde karşılaştırılır.
 
 ## Yayın
 
-| | |
-|---|---|
-| Barındırma | GitHub Pages (`main` dalı, kök dizin) |
-| Alan adı | `www.bilalarikan.com` — `CNAME` dosyasıyla tanımlı |
-| Build | Yok. `.nojekyll` sayesinde Jekyll işlemesi devre dışı, dosyalar doğrudan servis edilir |
+Hedef ortam `212.108.107.194` VPS'si, SSH bağlantısı `myhermes` üzerinden
+`100.101.118.70` adresidir. Site ortak Caddy üzerinden ayrı bir yayın klasöründen
+sunulur. GitHub Pages'e ait `CNAME` ve `.nojekyll` dosyaları geçmiş uyumluluğu
+için korunur; VPS yayını GitHub'a push gerektirmez.
 
-`main` dalına push atmak yayına almak demektir.
-
-## Dizin yapısı
-
-```
-.
-├── index.html              Ana sayfa
-├── 404.html                Hata sayfası (GitHub Pages otomatik servis eder)
-├── CNAME                   Özel alan adı
-├── robots.txt              Tarayıcı yönergeleri + sitemap işaretçisi
-├── sitemap.xml             Arama motoru dizini (üretilen dosya)
-├── <proje-adı>/            Her portfolyo yazısı kendi klasöründe (index.html + feed/)
-├── category/  tag/  author/  Taksonomi sayfaları
-├── feed/                   RSS beslemesi (index.xml)
-├── wp-content/             Tema (gridzone), eklentiler ve görsel yüklemeleri
-├── wp-includes/            Temanın ihtiyaç duyduğu jQuery / masonry / temel CSS
-└── tools/                  Bakım betikleri (siteye dahil değildir)
+```powershell
+.\tools\deploy.ps1
 ```
 
-## Bakım betikleri
+Betik derler, denetler, sunucuya aktarır ve `current` bağlantısını atomik olarak
+değiştirir. Önceki yayın korunur. DNS/TLS kurulumu, güncel geçiş durumu ve geri
+alma adımları [yayın kılavuzundadır](deploy/YAYIN.md). Toplayıcı kurulumu
+[entegrasyon belgesindedir](../pp-aggregator/docs/BILALARIKAN.md).
 
-Hepsi Python 3 ile çalışır ve **depo kökünden** çağrılır; yalnızca
-`convert-images-to-webp.py` dışarıdan bir paket (Pillow) ister. Dosya değiştiren
-betikler `--dry-run` ile yazmadan rapor verir.
+## Eski arşiv
 
-| Betik | Ne yapar |
-|---|---|
-| `tools/check-links.py` | HTML **ve feed XML** içindeki yerel `href`/`src`/`srcset`/`url()` ve görsel `<meta content>` hedeflerini tarar, var olmayan dosyaya işaret edenleri raporlar. Kırık hedef varsa çıkış kodu `1` döner |
-| `tools/find-orphans.py` | Tersi: hiçbir yerden referans edilmeyen varlık dosyalarını listeler. Hiçbir şey silmez — önce `check-links.py` temiz olmalı, yoksa kırık link yüzünden dosya yetim görünür |
-| `tools/generate-sitemap.py` | `sitemap.xml` dosyasını yeniden üretir. `lastmod` değerini git geçmişinden alır |
-| `tools/clean-wp-artifacts.py` | WordPress'e özgü ölü işaretlemeleri (emoji betiği, XML-RPC/pingback linkleri, REST keşif linkleri, yorum formu) söker; RSS keşif linkini ve feed'lerin kendi `atom:link rel="self"` değerini gerçek dosyaya (`index.xml`) yönlendirir |
-| `tools/convert-images-to-webp.py` | JPEG/PNG görselleri WebP'ye çevirir ve tüm referansları günceller. Favicon'lar PNG kalır; `foto.jpg` + `foto.png` gibi aynı gövdeli çiftlere dokunmaz; yalnızca çözümlenen yolu gerçekten dönüştürülen dosya olan referansları değiştirir |
-| `tools/markup_refs.py` | Betik değil, ortak modül: işaretlemedeki dosya referanslarını bulur ve diskteki yola çözer. Diğer betikler aynı ayrıştırıcıyı kullansın diye vardır |
+Kategori, etiket, yazar ve RSS arşivleri eski biçimleriyle korunur. Proje
+adresleri değişmez; eski `/drawings/` bağlantısı yeni çizim kategorisine gider.
+Eski bakım araçları `tools/check-links.py`, `tools/find-orphans.py`,
+`tools/convert-images-to-webp.py` ve `tools/markup_refs.py` içinde bulunur.
+Tüm eski arşivi tarayan araçların kapsamı yeni `npm run check` kontrolünden geniştir.
 
-İçerik değişikliğinden sonra çalıştırılacak akış:
-
-```bash
-python tools/convert-images-to-webp.py    # yeni görsel eklendiyse (Pillow gerekir)
-python tools/generate-sitemap.py          # yeni sayfa eklendiyse
-python tools/check-links.py               # her zaman: kırık hedef var mı
-python tools/find-orphans.py              # ara sıra: kullanılmayan dosya birikti mi
-```
-
-## Notlar
-
-- `wp-admin/`, `wp-json/`, `wp-login.php` ve `xmlrpc.php` bilinçli olarak
-  depodan çıkarılmıştır: statik yayında hiçbir işlevleri yok, sadece ölü yüzey
-  oluşturuyorlardı. `.gitignore` bunların geri dönmesini engeller.
-- `wp-includes/` içinde yalnızca temanın gerçekten yüklediği dosyalar tutulur.
-- Görseller WebP'ye çevrilmiştir (~103 MB → ~22 MB). Yeni görsel eklendiğinde
-  `tools/convert-images-to-webp.py` yeniden çalıştırılabilir; yalnızca WebP'si
-  gerçekten daha küçük olan dosyalar değiştirilir.
-- Eski `.git` geçmişi hâlâ dönüştürülmemiş görselleri içerdiği için klonlama
-  boyutu bu temizlikten etkilenmez; sadece yeni commit'ler küçüktür.
+`tools/import-legacy.mjs` yalnızca ilk WordPress aktarımı içindir. Var olan
+`content/projects.json` dosyasının üzerine yazmaz; yeni üretilen HTML üzerinde
+yeniden çalıştırılmamalıdır. `wp-admin`, PHP veya WordPress sunucusu gerekmez.

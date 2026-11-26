@@ -1,6 +1,6 @@
 # Bilal Arikan portfolyosu
 
-36 proje içeren statik portfolyo ve `pp-aggregator` veri kaynağı. Eski WordPress
+38 proje içeren statik portfolyo ve `pp-aggregator` veri kaynağı. Eski WordPress
 dökümünün içerikleri ve yerel WebP görselleri korunarak site yeniden oluşturuldu.
 Yeni arayüzde görsellerin doğal oranını koruyan, farklı yükseklikte kartlardan
 oluşan Masonry düzeni bulunur. Ana katalog 1280 piksel ve üzerinde 5 sütundur;
@@ -38,7 +38,7 @@ yazmaz. Mevcut `.env` dosyasını değiştirmez.
 | Adres | İçerik |
 | --- | --- |
 | <http://localhost:4178> | Yeni portfolyo |
-| <http://localhost:4178/api.json> | 36 projenin kaynak verisi |
+| <http://localhost:4178/api.json> | 38 projenin kaynak verisi |
 | <http://localhost:8000/projects> | Birleştirilmiş proje listesi |
 | <http://localhost:8000/projects/pocketbase-forge> | Tam içerikli proje detayı |
 | <http://localhost:8000/sources> | Kaynakların son alınma zamanı ve güncelliği |

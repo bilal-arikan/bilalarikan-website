@@ -137,6 +137,51 @@
       "content_html": "<figure><img loading=\"lazy\" src=\"https://www.bilalarikan.com/wp-content/uploads/2026/08/real-world-to-unity-1-1024x540.webp\" alt=\"real world to unity\" /></figure>\n\n\t\t\t\t\t\t\t\t\t\t\t<p>Downloads heightmaps from Terrain.party, caches them, and generates procedural terrain in Unity from real-world locations. Pick a place on the map and it becomes a playable landscape.</p>\n\n\t\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://github.com/bilal-arikan/Real-World-To-Unity\">https://github.com/bilal-arikan/Real-World-To-Unity</a></p>\n\n\t\t\t\t\t\t\t\t\t\t\t<figure><img loading=\"lazy\" src=\"https://www.bilalarikan.com/wp-content/uploads/2026/08/real-world-to-unity-2-1024x551.webp\" alt=\"real world to unity\" /></figure>"
     },
     {
+      "slug": "afyoncimnastik",
+      "name": "Afyon Cimnastik",
+      "summary": "Parent portal and pre-registration website for a gymnastics and movement centre, bringing attendance, payments, progress reports and announcements together for families.",
+      "url": "https://afyoncimnastik.com/",
+      "source_url": "https://www.bilalarikan.com/afyoncimnastik/",
+      "tags": [
+        "Software & Tools",
+        "Website",
+        "Web App"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2026-11-25",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2026/11/afyoncimnastik.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<p>Afyon Cimnastik is a parent portal and pre-registration website for a gymnastics and movement-training centre in Afyonkarahisar.</p><p>Parents get attendance notifications, instalment and payment tracking with receipts, development reports with charts, announcements and instructor messages in one place. Instructors use a separate portal. The portal syncs with the centre’s management system.</p><p><a href=\"https://afyoncimnastik.com/\">Visit Afyon Cimnastik</a> · <a href=\"https://veli.afyoncimnastik.com\">Parent portal</a> · <a href=\"https://egitmen.afyoncimnastik.com\">Instructor portal</a></p><figure><img src=\"https://www.bilalarikan.com/wp-content/uploads/2026/11/afyoncimnastik.webp\" alt=\"Afyon Cimnastik parent portal website homepage\" loading=\"lazy\" /></figure>"
+    },
+    {
+      "slug": "bedendenbeyne",
+      "name": "Bedenden Beyne",
+      "summary": "Website for a child development centre in Afyonkarahisar that offers personalized, non-medical programs combining sensory engagement and physical activity.",
+      "url": "https://www.bedendenbeyne.com/",
+      "source_url": "https://www.bilalarikan.com/bedendenbeyne/",
+      "tags": [
+        "Software & Tools",
+        "Website"
+      ],
+      "status": null,
+      "priority": null,
+      "date": "2026-11-25",
+      "icon_url": null,
+      "cover_url": "https://www.bilalarikan.com/wp-content/uploads/2026/11/bedendenbeyne.webp",
+      "sources": [
+        "bilalarikan"
+      ],
+      "created_at": null,
+      "updated_at": null,
+      "content_html": "<p>Bedenden Beyne is a development centre in Afyonkarahisar. Its personalized, non-medical programs use sensory engagement and physical activity to support children’s development.</p><p>The website introduces the programs, including ADHD, autism spectrum, learning difficulties, gifted children, adults and family counselling. It also shares parent testimonials and handles applications and franchise enquiries.</p><p><a href=\"https://www.bedendenbeyne.com/\">Visit Bedenden Beyne</a></p><figure><img src=\"https://www.bilalarikan.com/wp-content/uploads/2026/11/bedendenbeyne.webp\" alt=\"Bedenden Beyne website homepage\" loading=\"lazy\" /></figure>"
+    },
+    {
       "slug": "vestel-smart-oven-interface",
       "name": "Vestel Smart Oven Interface",
       "summary": "A user interface for Vestel's next-generation smart ovens, built with the Unity game engine.",
